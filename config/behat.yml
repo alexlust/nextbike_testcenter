@@ -1,0 +1,17 @@
+default:
+  autoload:
+    '': %paths.base%/../src/tests/bootstrap/
+  suites:
+
+    createAccount:
+      paths:
+        - %paths.base%/../src/tests/integration/features/Account/CreateAccount
+      contexts:
+        - Nextbike\Context\Account\CreateAccount\CreateAccountContext
+
+    updateAccount:
+      paths:
+        - %paths.base%/../src/tests/integration/features/Account/UpdateAccount
+      contexts:
+        - Nextbike\Context\Account\UpdateAccount\UpdateAccountContext
+
