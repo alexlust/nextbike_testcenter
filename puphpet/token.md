@@ -1,2 +1,0 @@
-Auth-Token:
-2ae6bb312b8d09f18e9bd70384b22709148b59a3

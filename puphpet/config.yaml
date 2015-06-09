@@ -4,20 +4,21 @@ vagrantfile:
         box: puphpet/ubuntu1404-x64
         box_url: puphpet/ubuntu1404-x64
         hostname: nextbike.puphpet
-        memory: '2024'
-        cpus: '4'
+        memory: '2048'
+        cpus: '2'
         chosen_provider: virtualbox
         network:
             private_network: 192.168.56.101
             forwarded_port:
-                vflnp_uwumcho9iuxj:
-                    host: '8392'
+                vflnp_oxg2qhk5h5e1:
+                    host: '5661'
                     guest: '22'
         post_up_message: ''
         provider:
             virtualbox:
                 modifyvm:
                     natdnshostresolver1: on
+                showgui: '0'
             vmware:
                 numvcpus: 1
             parallels:
@@ -32,10 +33,14 @@ vagrantfile:
                     - '--hiera_config /vagrant/puphpet/puppet/hiera.yaml'
                     - '--parser future'
         synced_folder:
-            vflsf_ihnf1oyzmkkl:
+            vflsf_fv92pku8gyqt:
                 source: ./
                 target: /var/www
-                sync_type: default
+                sync_type: nfs
+                smb:
+                    smb_host: ''
+                    smb_username: ''
+                    smb_password: ''
                 rsync:
                     args:
                         - '--verbose'
@@ -66,7 +71,6 @@ server:
     install: '1'
     packages:
         - vim
-        - php5-curl
         - htop
 users_groups:
     install: '1'
@@ -86,9 +90,11 @@ nginx:
         proxy_buffers: '4 256k'
     upstreams: {  }
     vhosts:
-        nxv_lzgjtyuqh1k5:
-            server_name: nextbike.dev
-            www_root: /var/www/html/
+        nxv_3h3pec51gj4q:
+            server_name: awesome.dev
+            server_aliases:
+                - www.awesome.dev
+            www_root: /var/www/awesome
             listen_port: '80'
             index_files:
                 - index.html
@@ -104,7 +110,7 @@ nginx:
             rewrite_to_https: '1'
             spdy: '1'
             locations:
-                nxvl_z11qj7ec9tv0:
+                nxvl_qylldqwo7jw7:
                     location: /
                     autoindex: off
                     try_files:
@@ -114,7 +120,7 @@ nginx:
                     fastcgi: ''
                     fastcgi_index: ''
                     fastcgi_split_path: ''
-                nxvl_626i05fsb9kg:
+                nxvl_dpswq32mixua:
                     location: '~ \.php$'
                     autoindex: off
                     try_files:
@@ -141,7 +147,7 @@ apache:
         - proxy_fcgi
         - rewrite
     vhosts:
-        av_l7h1jcp9b4wg:
+        av_0ag6tu3d0p2o:
             servername: awesome.dev
             serveraliases:
                 - www.awesome.dev
@@ -158,7 +164,7 @@ apache:
             ssl_protocol: ''
             ssl_cipher: ''
             directories:
-                avd_wz961i48s5k1:
+                avd_u6zig713ydb1:
                     path: /var/www/awesome
                     options:
                         - Indexes
@@ -170,7 +176,7 @@ apache:
                         - 'all granted'
                     custom_fragment: ''
                     files_match:
-                        avdfm_jpydismd0zuc:
+                        avdfm_hyxcmuxz043f:
                             path: \.php$
                             sethandler: 'proxy:fcgi://127.0.0.1:9000'
                             custom_fragment: ''
@@ -185,10 +191,10 @@ php:
             - cli
             - intl
             - mcrypt
+            - curl
         pear: {  }
         pecl:
             - pecl_http
-            - apcu-4.0.2
     ini:
         display_errors: On
         error_reporting: '-1'
@@ -197,7 +203,7 @@ php:
     fpm_ini:
         error_log: /var/log/php-fpm.log
     fpm_pools:
-        phpfp_zkqdfaj76kn9:
+        phpfp_3zec9m895y7v:
             ini:
                 prefix: www
                 listen: '127.0.0.1:9000'
@@ -263,22 +269,22 @@ hhvm:
         error_reporting: '-1'
         date.timezone: UTC
 mysql:
-    install: '1'
+    install: '0'
     settings:
         version: '5.6'
         root_password: '123'
         override_options: {  }
     adminer: 0
     users:
-        mysqlnu_mjqsmduxeaxy:
+        mysqlnu_lms2fgr8pv4g:
             name: dbuser
             password: '123'
     databases:
-        mysqlnd_gl35smm4qbjm:
+        mysqlnd_7a5wxs5jdvev:
             name: dbname
             sql: ''
     grants:
-        mysqlng_5vgrgxqx6zpu:
+        mysqlng_kjzacr9qbfmo:
             user: dbuser
             table: '*.*'
             privileges:
@@ -296,7 +302,7 @@ postgresql:
     grants: {  }
     adminer: 0
 mongodb:
-    install: '1'
+    install: '0'
     settings:
         auth: 1
         bind_ip: 127.0.0.1
@@ -330,7 +336,6 @@ beanstalkd:
         binlogfsync: null
         binlogsize: '10485760'
     beanstalk_console: 0
-    binlogdir: /var/lib/beanstalkd/binlog
 rabbitmq:
     install: '0'
     settings:
