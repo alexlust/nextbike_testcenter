@@ -5,13 +5,13 @@ vagrantfile:
         box_url: puphpet/ubuntu1404-x64
         hostname: nextbike.puphpet
         memory: '2048'
-        cpus: '2'
+        cpus: '13'
         chosen_provider: virtualbox
         network:
             private_network: 192.168.56.101
             forwarded_port:
-                vflnp_oxg2qhk5h5e1:
-                    host: '5661'
+                vflnp_hmg2p7n888z6:
+                    host: '8585'
                     guest: '22'
         post_up_message: ''
         provider:
@@ -33,10 +33,10 @@ vagrantfile:
                     - '--hiera_config /vagrant/puphpet/puppet/hiera.yaml'
                     - '--parser future'
         synced_folder:
-            vflsf_fv92pku8gyqt:
+            vflsf_xkfe26fiqqmq:
                 source: ./
                 target: /var/www
-                sync_type: nfs
+                sync_type: default
                 smb:
                     smb_host: ''
                     smb_username: ''
@@ -90,7 +90,7 @@ nginx:
         proxy_buffers: '4 256k'
     upstreams: {  }
     vhosts:
-        nxv_3h3pec51gj4q:
+        nxv_wcve078ixrv7:
             server_name: awesome.dev
             server_aliases:
                 - www.awesome.dev
@@ -110,7 +110,7 @@ nginx:
             rewrite_to_https: '1'
             spdy: '1'
             locations:
-                nxvl_qylldqwo7jw7:
+                nxvl_x29bnzxviq2a:
                     location: /
                     autoindex: off
                     try_files:
@@ -120,7 +120,7 @@ nginx:
                     fastcgi: ''
                     fastcgi_index: ''
                     fastcgi_split_path: ''
-                nxvl_dpswq32mixua:
+                nxvl_rc397vjxo4lw:
                     location: '~ \.php$'
                     autoindex: off
                     try_files:
@@ -147,7 +147,7 @@ apache:
         - proxy_fcgi
         - rewrite
     vhosts:
-        av_0ag6tu3d0p2o:
+        av_zwm7ituyos7l:
             servername: awesome.dev
             serveraliases:
                 - www.awesome.dev
@@ -164,7 +164,7 @@ apache:
             ssl_protocol: ''
             ssl_cipher: ''
             directories:
-                avd_u6zig713ydb1:
+                avd_8rnx57wk3lgh:
                     path: /var/www/awesome
                     options:
                         - Indexes
@@ -176,7 +176,7 @@ apache:
                         - 'all granted'
                     custom_fragment: ''
                     files_match:
-                        avdfm_hyxcmuxz043f:
+                        avdfm_dl9rftfjs6s0:
                             path: \.php$
                             sethandler: 'proxy:fcgi://127.0.0.1:9000'
                             custom_fragment: ''
@@ -191,7 +191,6 @@ php:
             - cli
             - intl
             - mcrypt
-            - curl
         pear: {  }
         pecl:
             - pecl_http
@@ -203,7 +202,7 @@ php:
     fpm_ini:
         error_log: /var/log/php-fpm.log
     fpm_pools:
-        phpfp_3zec9m895y7v:
+        phpfp_8xpt68hrv610:
             ini:
                 prefix: www
                 listen: '127.0.0.1:9000'
@@ -269,22 +268,22 @@ hhvm:
         error_reporting: '-1'
         date.timezone: UTC
 mysql:
-    install: '0'
+    install: '1'
     settings:
         version: '5.6'
         root_password: '123'
         override_options: {  }
     adminer: 0
     users:
-        mysqlnu_lms2fgr8pv4g:
+        mysqlnu_csw3aj3bn8dm:
             name: dbuser
             password: '123'
     databases:
-        mysqlnd_7a5wxs5jdvev:
+        mysqlnd_u4t5adw45ff0:
             name: dbname
             sql: ''
     grants:
-        mysqlng_kjzacr9qbfmo:
+        mysqlng_dg1nmr0gm147:
             user: dbuser
             table: '*.*'
             privileges:
