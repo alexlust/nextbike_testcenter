@@ -3,24 +3,41 @@
 namespace Nextbike\Api\Account\Gateway;
 
 use Framework\Gateway\AbstractGateway;
-use Nextbike\Api\Account\Command\CreateAccountCommand;
+use Nextbike\Api\Account\Command\LoginAccountCommand;
+use Nextbike\Api\Account\Command\RegisterAccountCommand;
 
 class AccountGateway extends AbstractGateway
 {
     /**
-     * @param CreateAccountCommand $command
+     * @param RegisterAccountCommand $command
      * @return mixed
      */
-    public function createAccount(CreateAccountCommand $command)
+    public function register(RegisterAccountCommand $command)
     {
         $data = [
             "apikey" => $command->getApiKey(),
-            "emailAddress" => $command->getEmailAddress(),
-            "telefonNumber" => $command->getTelefonNumber()
+            "email" => $command->getEmailAddress(),
+            "mobile" => $command->getTelefonNumber(),
+            "forname" => $command->getForename(),
+            "name" => $command->getName(),
+            "pin" => $command->getPin()
         ];
 
-        $response = $this->get('createAccount', $data);
-
-        return $response;
+        return $this->getAPIResponse('register', $data);
     }
+
+    /**
+     * @param LoginAccountCommand $command
+     * @return mixed
+     */
+    public function login(LoginAccountCommand $command)
+    {
+        $data = [
+            "apikey" => $command->getApiKey(),
+            'mobile' => $command->getMobile()
+        ];
+
+        return $this->getAPIResponse('login', $data);
+    }
+
 }

@@ -2,6 +2,8 @@
 
 namespace Framework\Gateway;
 
+use Dotenv\Dotenv;
+
 abstract class AbstractGateway
 {
 
@@ -9,23 +11,18 @@ abstract class AbstractGateway
 
     public function __construct()
     {
-        \Dotenv::load( __DIR__ .'/../../../');
+        $dotenv = new Dotenv(__DIR__ . '/../../../');
+        $dotenv->load();
         $this->endPoint = getenv('API_PATH');
     }
 
-    public function get($function ,array $data)
+    public function get($function, array $data)
     {
         $curl = curl_init();
-        $this->endPoint = $this->endPoint . $function .".xml";
+        $this->endPoint = $this->endPoint . $function . ".xml";
 
-        if(!empty($data)){
-            $this->endPoint = $this->endPoint . "?";
-
-            foreach($data as $parameter => $value)
-            {
-                $this->endPoint = $this->endPoint . "&" . $parameter . "=" . $value;
-            }
-        }
+        $this->createRequestURL($data);
+        var_dump($this->endPoint);
 
         curl_setopt($curl, CURLOPT_URL, $this->endPoint);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
@@ -35,5 +32,32 @@ abstract class AbstractGateway
         curl_close($curl);
 
         return $result;
+    }
+
+    protected function getAPIResponse($function, $data)
+    {
+        $xml_string = $this->get($function, $data);
+        $json = $this->parseXMLtoJSON($xml_string);
+
+        return json_decode($json, TRUE);
+    }
+
+    private function parseXMLtoJSON($xml_string)
+    {
+        $xml = simplexml_load_string($xml_string);
+        $json = json_encode($xml);
+
+        return $json;
+    }
+
+    private function createRequestURL($data)
+    {
+        if (!empty($data)) {
+            $this->endPoint = $this->endPoint . "?";
+
+            foreach ($data as $parameter => $value) {
+                $this->endPoint = $this->endPoint . "&" . $parameter . "=" . $value;
+            }
+        }
     }
 }

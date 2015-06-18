@@ -3,15 +3,18 @@ default:
     '': %paths.base%/../src/tests/bootstrap/
   suites:
 
-    createAccount:
+    registerAccount:
       paths:
-        - %paths.base%/../src/tests/integration/features/Account/CreateAccount
+        - %paths.base%/../src/tests/integration/features/Account/RegisterAccount
       contexts:
-        - Nextbike\Context\Account\CreateAccount\CreateAccountContext
+        - Nextbike\Context\Account\RegisterAccount\RegisterAccountContext
 
-    updateAccount:
+    loginAccount:
       paths:
-        - %paths.base%/../src/tests/integration/features/Account/UpdateAccount
+        - %paths.base%/../src/tests/integration/features/Account/LoginAccount
       contexts:
-        - Nextbike\Context\Account\UpdateAccount\UpdateAccountContext
+        - Nextbike\Context\Account\LoginAccount\LoginAccountContext
+
+
+
 
