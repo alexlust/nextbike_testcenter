@@ -34,7 +34,8 @@ class AccountGateway extends AbstractGateway
     {
         $data = [
             "apikey" => $command->getApiKey(),
-            'mobile' => $command->getMobile()
+            'mobile' => $command->getMobile(),
+            'pin' => $command->getPin()
         ];
 
         return $this->getAPIResponse('login', $data);

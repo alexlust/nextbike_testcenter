@@ -15,8 +15,8 @@ Feature: a user can login to our System
 
   Scenario: As a registrated person, i want to login to our app or terminal
     Given The following valid user information
-      | e_mail              | telefon_number    |
-      | testAccount@test.de | generated |
+      | e_mail              | telefon_number | pin    |
+      | testAccount@test.de | generated      | 112233 |
     When I try to login
     Then The API Response will have the right login key
 

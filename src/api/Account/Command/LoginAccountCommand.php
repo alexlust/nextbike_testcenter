@@ -10,6 +10,25 @@ class LoginAccountCommand extends AbstractCommand
 {
     private $mobile;
 
+    private $pin;
+
+
+    /**
+     * @return mixed
+     */
+    public function getPin()
+    {
+        return $this->pin;
+    }
+
+    /**
+     * @param mixed $pin
+     */
+    public function setPin($pin)
+    {
+        $this->pin = $pin;
+    }
+
     /**
      * @return mixed
      */

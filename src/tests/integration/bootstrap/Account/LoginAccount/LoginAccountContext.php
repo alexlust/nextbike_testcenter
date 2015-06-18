@@ -29,6 +29,7 @@ class LoginAccountContext extends BaseContext implements Context, SnippetAccepti
         $command = new LoginAccountCommand();
         $command->setMobile($this->telefonNumber);
         $command->setApikey($this->apiKey);
+        $command->setPin($this->userInformation['pin']);
 
         $gateway = new AccountGateway();
         $this->response = $gateway->login($command);
@@ -41,5 +42,7 @@ class LoginAccountContext extends BaseContext implements Context, SnippetAccepti
     public function theApiResponseWillHaveTheRightLoginKey()
     {
         $this->assertEquals($this->telefonNumber, $this->response['user']['@attributes']['mobile']);
+        $this->assertEquals($this->loginKey, $this->response['user']['@attributes']['loginkey']);
+
     }
 }
