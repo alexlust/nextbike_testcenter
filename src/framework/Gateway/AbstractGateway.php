@@ -16,7 +16,7 @@ abstract class AbstractGateway
         $this->endPoint = getenv('API_PATH');
     }
 
-    public function get($function, array $data)
+    private function get($function, array $data)
     {
         $curl = curl_init();
         $this->endPoint = $this->endPoint . $function . ".xml";

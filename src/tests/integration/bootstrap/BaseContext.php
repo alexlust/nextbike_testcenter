@@ -3,6 +3,7 @@
 namespace Nextbike\Context;
 
 use Behat\Gherkin\Node\TableNode;
+use Dotenv\Dotenv;
 use Nextbike\Api\Account\Command\RegisterAccountCommand;
 use Nextbike\Api\Account\Gateway\AccountGateway;
 
@@ -17,8 +18,11 @@ class BaseContext extends \PHPUnit_Framework_TestCase
     protected $loginkey = null;
     protected $telefonNumber = null;
 
+
     public function __construct()
     {
+        $dotenv = new Dotenv(__DIR__ . '/../../../../');
+        $dotenv->load();
     }
 
     /**

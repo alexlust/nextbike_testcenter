@@ -16,5 +16,15 @@ default:
         - Nextbike\Context\Account\LoginAccount\LoginAccountContext
 
 
+    getBikeState:
+      paths:
+        - %paths.base%/../src/tests/integration/features/Bike/GetBikeState
+      contexts:
+        - Nextbike\Context\Bike\GetBikeState\GetBikeStateContext
+
+
+
+
+
 
 
