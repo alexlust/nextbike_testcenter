@@ -40,13 +40,20 @@ default:
           contexts:
             - Nextbike\Context\Tariffs\Tariffs\TariffsContext
 
-    rentBike: 
+    rentBike:
       paths:
         - %paths.base%/../src/tests/integration/features/Bike/Rent
       contexts:
         - Nextbike\Context\Bike\RentContext\RentContext
 
+    singleTariff:
+              paths:
+                - %paths.base%/../src/tests/integration/features/Tariffs/SingleTariff
+              contexts:
+                - Nextbike\Context\Tariffs\SingleTariff\SingleTariffContext
 
-
-
-
+    singleTariffbyCode:
+                  paths:
+                    - %paths.base%/../src/tests/integration/features/Tariffs/SingleTariffbyCode
+                  contexts:
+                    - Nextbike\Context\Tariffs\SingleTariff\SingleTariffByCodeContext

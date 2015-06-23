@@ -7,8 +7,6 @@ use Nextbike\Api\Tariffs\Gateway\TariffsGateway;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
 use Behat\Gherkin\Node\TableNode;
-use Nextbike\Api\Account\Command\UpdateCustomerDataCommand;
-use Nextbike\Api\Account\Gateway\AccountGateway;
 use Nextbike\Context\BaseContext;
 
 class TariffsContext extends BaseContext implements Context, SnippetAcceptingContext
