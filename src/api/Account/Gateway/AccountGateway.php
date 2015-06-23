@@ -6,6 +6,8 @@ use Framework\Gateway\AbstractGateway;
 use Nextbike\Api\Account\Command\ListAccountCommand;
 use Nextbike\Api\Account\Command\LoginAccountCommand;
 use Nextbike\Api\Account\Command\RegisterAccountCommand;
+use Nextbike\Api\Tariffs\Command\TariffsCommand;
+use Nextbike\Api\Account\Command\UpdateCustomerDataCommand;
 
 class AccountGateway extends AbstractGateway
 {
@@ -56,6 +58,20 @@ class AccountGateway extends AbstractGateway
         return $this->getAPIResponse('list', $data);
     }
 
+    public function updateCustomerData(UpdateCustomerDataCommand $command)
+    {
+        $data = [
+            "apikey" => $command->getApiKey(),
+            'loginkey' => $command->getLoginkey(),
+            'mobile' => $command->getMobile(),
+            'country' => $command->getCountry(),
+            'zip' => $command->getZip()
+        ];
+
+        var_dump($data);
+
+        return $this->getAPIResponse('updateCustomerData', $data);
+    }
 
 
 }

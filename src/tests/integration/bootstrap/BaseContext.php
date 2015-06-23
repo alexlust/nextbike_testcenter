@@ -15,7 +15,6 @@ class BaseContext extends \PHPUnit_Framework_TestCase
 
     protected $response = null;
 
-    protected $loginkey = null;
     protected $telefonNumber = null;
 
 
@@ -59,7 +58,6 @@ class BaseContext extends \PHPUnit_Framework_TestCase
 
         $gateway = new AccountGateway();
         $this->response = $gateway->register($command);
-
         $this->loginKey = $this->response['user']['@attributes']['loginkey'];
 
         $this->assertNotNull($this->response);

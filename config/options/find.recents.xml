@@ -1,0 +1,15 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>mobile</find>
+      <find>$this-&gt;mobile</find>
+      <find>loginKey</find>
+      <find>assertNotNull</find>
+      <find>store</find>
+      <find>apikey</find>
+      <find>zip</find>
+      <find>updateCustomerData</find>
+      <find>assertArrayHasKey</find>
+    </findStrings>
+  </component>
+</application>

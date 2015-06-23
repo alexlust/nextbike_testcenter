@@ -24,10 +24,21 @@ default:
 
     getBikeState:
       paths:
-        - %paths.base%/../src/tests/integration/features/Bike/GetBikeState
+        - %paths.base%/../src/tests/integration/features/Bike/GetBikeStateContext
       contexts:
         - Nextbike\Context\Bike\GetBikeState\GetBikeStateContext
 
+    updateCustomerDataAccount:
+          paths:
+            - %paths.base%/../src/tests/integration/features/Account/UpdateCustomerData
+          contexts:
+            - Nextbike\Context\Account\UpdateCustomerData\UpdateCustomerDataContext
+
+    tariffs:
+          paths:
+            - %paths.base%/../src/tests/integration/features/Tariffs/Tariffs
+          contexts:
+            - Nextbike\Context\Tariffs\Tariffs\TariffsContext
 
 
 

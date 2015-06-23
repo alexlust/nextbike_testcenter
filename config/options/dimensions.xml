@@ -1,0 +1,29 @@
+<application>
+  <component name="DimensionService">
+    <location key="FileChooserDialogImpl.0.0.1366.768" x="461" y="115" />
+    <location key="WELCOME_SCREEN.0.0.1366.768" x="678" y="271" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1366.768" x="394" y="213" />
+    <location key="#UpdateCustomerData.feature.0.0.1366.768" x="368" y="53" />
+    <location key="NewPhpFileDialog.0.0.1366.768" x="483" y="321" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.1366.768" x="491" y="110" />
+    <location key="#PHP.0.0.1366.768" x="405" y="73" />
+    <location key="#RegisterAccount.feature.0.0.1366.768" x="368" y="53" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1366.768" x="141" y="50" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1366.768" x="415" y="192" />
+    <location key="com.intellij.openapi.vcs.changes.UnversionedViewDialog.0.0.1366.768" x="462" y="158" />
+    <location key="#UpdateCustomerDataContext.0.0.1366.768" x="366" y="46" />
+    <location key="#features.0.0.1366.768" x="368" y="53" />
+    <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1366.768" x="516" y="25" />
+    <size key="FileChooserDialogImpl.0.0.1366.768" width="426" height="488" />
+    <size key="#UpdateCustomerData.feature.0.0.1366.768" width="629" height="681" />
+    <size key="NewPhpFileDialog.0.0.1366.768" width="392" height="145" />
+    <size key="#com.intellij.ide.util.MemberChooser.0.0.1366.768" width="377" height="567" />
+    <size key="#PHP.0.0.1366.768" width="546" height="636" />
+    <size key="#RegisterAccount.feature.0.0.1366.768" width="629" height="682" />
+    <size key="#com.intellij.fileTypes.FileTypeChooser.0.0.1366.768" width="528" height="404" />
+    <size key="com.intellij.openapi.vcs.changes.UnversionedViewDialog.0.0.1366.768" width="433" height="470" />
+    <size key="#UpdateCustomerDataContext.0.0.1366.768" width="625" height="694" />
+    <size key="#features.0.0.1366.768" width="629" height="681" />
+    <size key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1366.768" width="326" height="738" />
+  </component>
+</application>
