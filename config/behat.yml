@@ -33,7 +33,11 @@ default:
       contexts:
         - Nextbike\Context\Bike\RentContext\RentContext
 
-
+    AbortRentalBike:
+      paths:
+        - %paths.base%/../src/tests/integration/features/Bike/AbortRental
+      contexts:
+        - Nextbike\Context\Bike\AbortRentalContext\AbortRentalContext
 
 
 

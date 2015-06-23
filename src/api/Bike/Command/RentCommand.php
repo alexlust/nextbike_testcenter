@@ -13,7 +13,21 @@ use Framework\Command\AbstractCommand;
 class RentCommand extends AbstractCommand {
 
     private $bikeNumber;
+    private $rentalId;
 
+    /**
+     * @return mixed
+     */
+    public function getRentalId() {
+        return $this->rentalId;
+    }
+
+    /**
+     * @param mixed $rentalId
+     */
+    public function setRentalId( $rentalId ) {
+        $this->rentalId = $rentalId;
+    }
     /**
      * @return mixed
      */
