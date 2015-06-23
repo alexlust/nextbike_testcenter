@@ -43,7 +43,6 @@ class RentContext extends BaseContext implements Context, SnippetAcceptingContex
      */
     public function theApiResponseWillHaveTheRightLockCode() {
         var_dump( $this->response );
-        $this->assertEquals( getenv( 'BIKENUMBER' ), $this->response['rental']['@attributes']['bike'] );
         $this->assertNotNull( $this->response['rental']['@attributes']['code'] );
     }
 
@@ -52,6 +51,9 @@ class RentContext extends BaseContext implements Context, SnippetAcceptingContex
      */
     public function theFollowingValidReturnInformation( TableNode $table ) {
         $this->bikeInformation = $this->getHashFromTable( $table );
+        if ( $this->bikeInformation["bikeNumber"] == "TestBike" ) {
+            $this->bikeInformation["bikeNumber"] = $this->getBikeNumber();
+        }
         if ( $this->bikeInformation["placeId"] == "TestStation" ) {
             $this->bikeInformation["placeId"] = $this->getPlaceId();
         }
@@ -74,14 +76,9 @@ class RentContext extends BaseContext implements Context, SnippetAcceptingContex
     /**
      * @Then The Bike will be returned
      */
-    public function theBikeWillBeReturned()
-    {
+    public function theBikeWillBeReturned() {
         var_dump( $this->response );
-        $this->assertEquals( getenv( 'BIKENUMBER' ), $this->response['rental']['@attributes']['bike'] );
         $this->assertNotNull( $this->response['rental']['@attributes']['code'] );
     }
-
-
-
 
 }
