@@ -65,7 +65,7 @@ class BaseContext extends \PHPUnit_Framework_TestCase
 
     public function generateTelefonNumber()
     {
-        $randomNumber = rand(1999999999, 9999999999);
+        $randomNumber = rand(19999999999999, 99999999999999);
         $this->telefonNumber = '+49' . $randomNumber;
         return $this->telefonNumber;
     }
@@ -91,5 +91,13 @@ class BaseContext extends \PHPUnit_Framework_TestCase
             return $array[$parameter];
         }
         return null;
+    }
+
+    protected function getBikeNumber(){
+        return getenv("BIKE_NUMBER");
+    }
+
+    protected function getPlaceId(){
+        return getenv("PLACE_ID");
     }
 }

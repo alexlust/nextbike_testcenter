@@ -25,8 +25,11 @@ class AccountGateway extends AbstractGateway
             "name" => $command->getName(),
             "pin" => $command->getPin()
         ];
-
-        return $this->getAPIResponse('register', $data);
+        $response = $this->getAPIResponse( 'register', $data );
+        $log=$this->getAPIResponse( "voucher", [ "apikey" => $command->getApikey(), "loginkey" =>
+                $response['user']['@attributes']['loginkey'], "code" => getenv( "VOUCHER_CODE" ) ] );
+        var_dump($log);
+        return $response;
     }
 
     /**

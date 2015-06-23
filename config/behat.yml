@@ -21,12 +21,12 @@ default:
       contexts:
         - Nextbike\Context\Account\ListAccount\ListAccountContext
 
-
     getBikeState:
       paths:
         - %paths.base%/../src/tests/integration/features/Bike/GetBikeStateContext
       contexts:
         - Nextbike\Context\Bike\GetBikeState\GetBikeStateContext
+
 
     updateCustomerDataAccount:
           paths:
@@ -40,6 +40,11 @@ default:
           contexts:
             - Nextbike\Context\Tariffs\Tariffs\TariffsContext
 
+    rentBike: 
+      paths:
+        - %paths.base%/../src/tests/integration/features/Bike/Rent
+      contexts:
+        - Nextbike\Context\Bike\RentContext\RentContext
 
 
 
