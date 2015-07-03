@@ -57,3 +57,9 @@ default:
                     - %paths.base%/../src/tests/integration/features/Tariffs/SingleTariffbyCode
                   contexts:
                     - Nextbike\Context\Tariffs\SingleTariff\SingleTariffByCodeContext
+
+    AbortRentalBike:
+      paths:
+        - %paths.base%/../src/tests/integration/features/Bike/AbortRental
+      contexts:
+        - Nextbike\Context\Bike\AbortRentalContext\AbortRentalContext

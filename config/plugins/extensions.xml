@@ -1072,6 +1072,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.jsonviewer">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.remoterapp.adbremote.jsonviewer.id" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.jstd">
       <plugins>
         <option name="myPlugins">
@@ -2646,6 +2659,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="de.sgalinski.typoscript.plugin.id" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="BUCK">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="intellij.buck.plugin" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>

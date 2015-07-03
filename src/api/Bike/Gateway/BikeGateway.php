@@ -37,6 +37,7 @@ class BikeGateway extends AbstractGateway
         $data = [
                 "apikey" => $command->getApiKey(),
                 "loginkey" => $command->getLoginkey(),
+                "rental" => $command->getRentalId(),
                 "bike" => $command->getBikeNumber(),
                 "place"=> $command->getPlaceId()
         ];

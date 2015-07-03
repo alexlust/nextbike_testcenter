@@ -15,6 +15,7 @@
     <location key="#features.0.0.1366.768" x="368" y="53" />
     <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1366.768" x="516" y="25" />
     <location key="CommitChangelistDialog2.0.0.1366.768" x="334" y="100" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1360.768" x="391" y="212" />
     <size key="FileChooserDialogImpl.0.0.1366.768" width="426" height="488" />
     <size key="#UpdateCustomerData.feature.0.0.1366.768" width="629" height="681" />
     <size key="NewPhpFileDialog.0.0.1366.768" width="392" height="145" />
