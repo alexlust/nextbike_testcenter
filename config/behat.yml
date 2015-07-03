@@ -23,9 +23,22 @@ default:
 
     getBikeState:
       paths:
-        - %paths.base%/../src/tests/integration/features/Bike/GetBikeState
+        - %paths.base%/../src/tests/integration/features/Bike/GetBikeStateContext
       contexts:
         - Nextbike\Context\Bike\GetBikeState\GetBikeStateContext
+
+
+    updateCustomerDataAccount:
+          paths:
+            - %paths.base%/../src/tests/integration/features/Account/UpdateCustomerData
+          contexts:
+            - Nextbike\Context\Account\UpdateCustomerData\UpdateCustomerDataContext
+
+    tariffs:
+          paths:
+            - %paths.base%/../src/tests/integration/features/Tariffs/Tariffs
+          contexts:
+            - Nextbike\Context\Tariffs\Tariffs\TariffsContext
 
     rentBike:
       paths:
@@ -33,15 +46,20 @@ default:
       contexts:
         - Nextbike\Context\Bike\RentContext\RentContext
 
+    singleTariff:
+              paths:
+                - %paths.base%/../src/tests/integration/features/Tariffs/SingleTariff
+              contexts:
+                - Nextbike\Context\Tariffs\SingleTariff\SingleTariffContext
+
+    singleTariffbyCode:
+                  paths:
+                    - %paths.base%/../src/tests/integration/features/Tariffs/SingleTariffbyCode
+                  contexts:
+                    - Nextbike\Context\Tariffs\SingleTariff\SingleTariffByCodeContext
+
     AbortRentalBike:
       paths:
         - %paths.base%/../src/tests/integration/features/Bike/AbortRental
       contexts:
         - Nextbike\Context\Bike\AbortRentalContext\AbortRentalContext
-
-
-
-
-
-
-

@@ -1,0 +1,25 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>mobile</find>
+      <find>$this-&gt;mobile</find>
+      <find>loginKey</find>
+      <find>assertNotNull</find>
+      <find>store</find>
+      <find>apikey</find>
+      <find>zip</find>
+      <find>updateCustomerData</find>
+      <find>assertArrayHasKey</find>
+      <find>TariffsCommand</find>
+      <find>uid</find>
+      <find>$uid</find>
+      <find>SingleTariff</find>
+      <find>['tariff'][0]</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>code</replace>
+      <replace>$code</replace>
+      <replace>['tariff']</replace>
+    </replaceStrings>
+  </component>
+</application>

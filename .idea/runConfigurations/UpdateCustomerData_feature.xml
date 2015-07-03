@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="UpdateCustomerData.feature" type="PhpBehatConfigurationType" factoryName="Behat">
+    <BehatRunner file="$PROJECT_DIR$/src/tests/integration/features/Account/UpdateCustomerData/UpdateCustomerData.feature" scenario="" scope="File" />
+    <RunnerSettings RunnerId="BehatDebugRunner" />
+    <RunnerSettings RunnerId="PhpRunner" />
+    <ConfigurationWrapper RunnerId="BehatDebugRunner" />
+    <ConfigurationWrapper RunnerId="PhpRunner" />
+    <method />
+  </configuration>
+</component>
