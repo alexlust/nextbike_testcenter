@@ -9,8 +9,9 @@ use Nextbike\Api\Account\Command\RegisterAccountCommand;
 use Nextbike\Api\Account\Command\ResetPinCommand;
 use Nextbike\Api\Account\Command\GetOnRfidCommand;
 use Nextbike\Api\Account\Command\SetCustomerRfidUidCommand;
-use Nextbike\Api\Tariffs\Command\TariffsCommand;
 use Nextbike\Api\Account\Command\UpdateCustomerDataCommand;
+use Nextbike\Api\Account\Command\TransferCreditsCommand;
+
 
 class AccountGateway extends AbstractGateway
 {
@@ -116,4 +117,19 @@ class AccountGateway extends AbstractGateway
         return $this->getAPIResponse('setCustomerRfid', $data);
     }
 
+    public function transferCredits(TransferCreditsCommand $command)
+    {
+        $data = [
+            "apikey" => $command->getApiKey(),
+            'loginkey' => $command->getLoginkey(),
+            'mobile' => $command->getMobile(),
+            'currency' => $command->getCurrency(),
+            'amount' => $command->getAmount(),
+            'description' => $command->getDescription(),
+        ];
+
+        var_dump($data);
+
+        return $this->getAPIResponse('transfer', $data);
+    }
 }

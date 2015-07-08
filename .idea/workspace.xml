@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1122c52d-bc92-4352-b144-f9312f4fdf96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/features/Tests/GetClosestLocation/GetClosestLocation.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Tests/GetClosestLocation/GetClosestLocation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Tests/Command/GetClosestLocationCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/features/Bike/GpsTracking/GpsTracking.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Bike/Command/GpsTrackingCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/GpsTracking/GpsTrackingContext.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/Locations/Command/LocationsCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/Locations/Gateway/LocationsGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tests/integration/bootstrap/Locations/RealtimeLocationsContext/RealtimeLocationsContext.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tests/integration/features/Locations/RealtimeLocations/RealtimeLocations.feature" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Tariffs/Command/RedeemVoucherCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Tariffs/RedeemVoucher/RedeemVoucherContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/features/Account/TransferCredits/TransferCredits.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Account/Command/TransferCreditsCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/TransferCredits/TransferCreditsContext.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations" afterPath="$PROJECT_DIR$/vendor/doctrine/annotations" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/asset" afterPath="$PROJECT_DIR$/vendor/symfony/asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/behat/behat" afterPath="$PROJECT_DIR$/vendor/behat/behat" />
@@ -70,42 +65,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/behat/transliterator" afterPath="$PROJECT_DIR$/vendor/behat/transliterator" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml" afterPath="$PROJECT_DIR$/vendor/symfony/yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/Account/Gateway/AccountGateway.php" afterPath="$PROJECT_DIR$/src/api/Account/Gateway/AccountGateway.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/Bike/Gateway/BikeGateway.php" afterPath="$PROJECT_DIR$/src/api/Bike/Gateway/BikeGateway.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/integration/features/Bike/GetBikeRfidUid/GetBikeRfidUid.feature" afterPath="$PROJECT_DIR$/src/tests/integration/features/Bike/GetBikeRfidUid/GetBikeRfidUid.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/Bike/Command/GetBikeRfidUidCommand.php" afterPath="$PROJECT_DIR$/src/api/Bike/Command/GetBikeRfidUidCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/GetBikeRfidUid/GetBikeRfidUidContext.php" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/GetBikeRfidUid/GetBikeRfidUidContext.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/GetBikeStateContext/GetBikeStateContext.php" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/GetBikeStateContext/GetBikeStateContext.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/integration/features/Account/GetOnRfid/GetOnRfid.feature" afterPath="$PROJECT_DIR$/src/tests/integration/features/Account/GetOnRfid/GetOnRfid.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/Account/Command/GetOnRfidCommand.php" afterPath="$PROJECT_DIR$/src/api/Account/Command/GetOnRfidCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/GetOnRfid/GetOnRfidContext.php" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/GetOnRfid/GetOnRfidContext.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/integration/bootstrap/Tests/PhoneNumber/PhoneNumberContext.php" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Tests/PhoneNumber/PhoneNumberContext.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/integration/features/Account/ResetPin/ResetPin.feature" afterPath="$PROJECT_DIR$/src/tests/integration/features/Account/ResetPin/ResetPin.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/Account/Command/ResetPinCommand.php" afterPath="$PROJECT_DIR$/src/api/Account/Command/ResetPinCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/ResetPin/ResetPinContext.php" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/ResetPin/ResetPinContext.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/integration/features/Bike/SetBikeRfidUid/SetBikeRfidUid.feature" afterPath="$PROJECT_DIR$/src/tests/integration/features/Bike/SetBikeRfidUid/SetBikeRfidUid.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/Bike/Command/SetBikeRfidUidCommand.php" afterPath="$PROJECT_DIR$/src/api/Bike/Command/SetBikeRfidUidCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/SetBikeRfidUid/SetBikeRfidUidContext.php" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/SetBikeRfidUid/SetBikeRfidUidContext.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/integration/features/Account/SetCustomerRfidUid/SetCustomerRfidUid.feature" afterPath="$PROJECT_DIR$/src/tests/integration/features/Account/SetCustomerRfidUid/SetCustomerRfidUid.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/Account/Command/SetCustomerRfidUidCommand.php" afterPath="$PROJECT_DIR$/src/api/Account/Command/SetCustomerRfidUidCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/SetCustomerRfidUid/SetCustomerRfidUidContext.php" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/SetCustomerRfidUid/SetCustomerRfidUidContext.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/Tests/Gateway/TestsGateway.php" afterPath="$PROJECT_DIR$/src/api/Tests/Gateway/TestsGateway.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/integration/features/Account/UpdateCustomerData/UpdateCustomerData.feature" afterPath="$PROJECT_DIR$/src/tests/integration/features/Account/UpdateCustomerData/UpdateCustomerData.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/UpdateCustomerDataAccount/UpdateCustomerDataAccountContext.php" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/UpdateCustomerDataAccount/UpdateCustomerDataAccountContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/Tariffs/Gateway/TariffsGateway.php" afterPath="$PROJECT_DIR$/src/api/Tariffs/Gateway/TariffsGateway.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/appComponentVersions.xml" afterPath="$PROJECT_DIR$/config/options/appComponentVersions.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/plugins/availables.xml" afterPath="$PROJECT_DIR$/config/plugins/availables.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/behat.yml" afterPath="$PROJECT_DIR$/config/behat.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/dimensions.xml" afterPath="$PROJECT_DIR$/config/options/dimensions.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/plugins/extensions.xml" afterPath="$PROJECT_DIR$/config/plugins/extensions.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/feature.usage.statistics.xml" afterPath="$PROJECT_DIR$/config/options/feature.usage.statistics.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/filetypes.xml" afterPath="$PROJECT_DIR$/config/options/filetypes.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/find.recents.xml" afterPath="$PROJECT_DIR$/config/options/find.recents.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/ide.general.xml" afterPath="$PROJECT_DIR$/config/options/ide.general.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/options.xml" afterPath="$PROJECT_DIR$/config/options/options.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/componentVersions/project993d3533.xml" afterPath="$PROJECT_DIR$/config/componentVersions/project993d3533.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/statistics.application.usages.xml" afterPath="$PROJECT_DIR$/config/options/statistics.application.usages.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/usage.statistics.xml" afterPath="$PROJECT_DIR$/config/options/usage.statistics.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/window.manager.xml" afterPath="$PROJECT_DIR$/config/options/window.manager.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nextbike_testcenter.iws" />
@@ -137,24 +102,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GetClosestLocation.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Tests/GetClosestLocation/GetClosestLocation.php">
+      <file leaf-file-name="behat.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/behat.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.37037" vertical-offset="701" max-vertical-offset="1386">
-              <caret line="65" column="76" selection-start-line="65" selection-start-column="76" selection-end-line="65" selection-end-column="76" />
-              <folding>
-                <element signature="e#61#111#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="1777" max-vertical-offset="2376">
+              <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="behat.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/behat.yml">
+      <file leaf-file-name="TransferCreditsContext.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/TransferCredits/TransferCreditsContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12854758" vertical-offset="1561" max-vertical-offset="2160">
-              <caret line="91" column="19" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
-              <folding />
+            <state vertical-scroll-proportion="0.76565295" vertical-offset="544" max-vertical-offset="1134">
+              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+              <folding>
+                <element signature="e#60#110#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,13 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Tariffs/SingleTariff/SingleTariffContextbyCode.php" />
-        <option value="$PROJECT_DIR$/src/api/Tariffs/Gateway/TariffsGateway.php" />
-        <option value="$PROJECT_DIR$/src/api/Tariffs/Command/SingleTariffByCodeCommand.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Tariffs/SingleTariff/SingleTariffByCodeContext.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/features/Locations/RealtimeLocations/RealtimeLocations.feature" />
-        <option value="$PROJECT_DIR$/src/api/Locations/Command/TariffsCommand.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Locations/RealtimeLocationsContext/RealtimeLocationsContext.php" />
         <option value="$PROJECT_DIR$/src/api/Locations/Command/LocationsCommand.php" />
         <option value="$PROJECT_DIR$/src/api/Locations/Gateway/LocationsGateway.php" />
         <option value="$PROJECT_DIR$/src/api/Tests/Gateway/TariffsGateway.php" />
@@ -198,7 +156,6 @@
         <option value="$PROJECT_DIR$/src/tests/integration/features/Account/SetCustomerRfidUid/SetCustomerRfidUid.feature" />
         <option value="$PROJECT_DIR$/src/tests/integration/features/Account/GetOnRfid/GetOnRfid.feature" />
         <option value="$PROJECT_DIR$/src/api/Account/Command/SetCustomerRfidUidCommand.php" />
-        <option value="$PROJECT_DIR$/src/api/Account/Gateway/AccountGateway.php" />
         <option value="$PROJECT_DIR$/src/tests/integration/features/Bike/SetBikeRfidUid/SetBikeRfidUid.feature" />
         <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/SetCustomerRfidUid/SetCustomerRfidUidContext.php" />
         <option value="$PROJECT_DIR$/src/api/Bike/Command/SetBikeRfidUidCommand.php" />
@@ -214,10 +171,18 @@
         <option value="$PROJECT_DIR$/src/api/Bike/Gateway/BikeGateway.php" />
         <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/GpsTracking/GpsTrackingContext.php" />
         <option value="$PROJECT_DIR$/src/tests/integration/features/Tests/GetClosestLocation/GetClosestLocation.feature" />
-        <option value="$PROJECT_DIR$/config/behat.yml" />
         <option value="$PROJECT_DIR$/src/api/Tests/Command/GetClosestLocationCommand.php" />
         <option value="$PROJECT_DIR$/src/api/Tests/Gateway/TestsGateway.php" />
         <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Tests/GetClosestLocation/GetClosestLocation.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/features/Tariffs/RedeemVoucher/RedeemVoucher.feature" />
+        <option value="$PROJECT_DIR$/src/api/Tariffs/Command/RedeemVoucherCommand.php" />
+        <option value="$PROJECT_DIR$/src/api/Tariffs/Gateway/TariffsGateway.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Tariffs/RedeemVoucher/RedeemVoucherContext.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/features/Account/TransferCredits/TransferCredits.feature" />
+        <option value="$PROJECT_DIR$/src/api/Account/Command/TransferCreditsCommand.php" />
+        <option value="$PROJECT_DIR$/src/api/Account/Gateway/AccountGateway.php" />
+        <option value="$PROJECT_DIR$/config/behat.yml" />
+        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/TransferCredits/TransferCreditsContext.php" />
       </list>
     </option>
   </component>
@@ -324,11 +289,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Bike" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SetBikeRfidUid" />
+              <option name="myItemId" value="Tariffs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,41 +319,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Bike" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
+              <option name="myItemId" value="Tariffs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UpdateCustomerData" />
+              <option name="myItemId" value="RedeemVoucher" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -449,6 +380,190 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Account" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TransferCredits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nextbike_testcenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nextbike_testcenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nextbike_testcenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nextbike_testcenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nextbike_testcenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nextbike_testcenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tariffs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nextbike_testcenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nextbike_testcenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tariffs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RedeemVoucher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nextbike_testcenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nextbike_testcenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Account" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nextbike_testcenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nextbike_testcenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -473,26 +588,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RegisterAccount" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -508,195 +603,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoginAccount" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ListAccount" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GetOnRfid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tariffs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tariffs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tariffs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -718,7 +625,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tests" />
+              <option name="myItemId" value="Account" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -744,77 +651,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Command" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bike" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bike" />
+              <option name="myItemId" value="Account" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -863,11 +700,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/api/Tests/Command" />
-      <recent name="$PROJECT_DIR$/src/tests/integration/features/Tests" />
-      <recent name="$PROJECT_DIR$/src/tests/integration/bootstrap/Tests" />
-      <recent name="$PROJECT_DIR$/src/api/Bike/Command" />
-      <recent name="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike" />
+      <recent name="$PROJECT_DIR$/src/api/Account/Command" />
+      <recent name="$PROJECT_DIR$/src/tests/integration/bootstrap/Account" />
+      <recent name="$PROJECT_DIR$/src/tests/integration/features" />
+      <recent name="$PROJECT_DIR$/src/api/Tariffs/Command" />
+      <recent name="$PROJECT_DIR$/src/tests/integration/bootstrap/Tariffs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/tests/integration/features/Account" />
@@ -1029,71 +866,11 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/api/Tariffs/Command/SingleTariffCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09440559" vertical-offset="0" max-vertical-offset="684">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Tariffs/SingleTariff/SingleTariffContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5134168" vertical-offset="467" max-vertical-offset="1026">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#57#110#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Tests/PhoneNumber/PhoneNumber.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48080134" vertical-offset="0" max-vertical-offset="599">
-          <caret line="16" column="74" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Tariffs/Gateway/TariffsGateway.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4020979" vertical-offset="364" max-vertical-offset="936">
-          <caret line="42" column="67" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Bike/Command/GetBikeStateCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/RegisterAccount/RegisterAccountContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56643355" vertical-offset="108" max-vertical-offset="1260">
-          <caret line="29" column="50" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/UpdateCustomerDataAccount/UpdateCustomerDataAccountContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28321677" vertical-offset="0" max-vertical-offset="1170">
-          <caret line="9" column="33" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="e#70#102#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/api/Account/Command/ResetPinCommand.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6381119" vertical-offset="85" max-vertical-offset="684">
@@ -1126,16 +903,6 @@
           <caret line="17" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#54#104#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/ResetPin/ResetPinContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7867133" vertical-offset="0" max-vertical-offset="1098">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#53#103#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1190,16 +957,6 @@
         <state vertical-scroll-proportion="0.84140235" vertical-offset="0" max-vertical-offset="666">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Account/Gateway/AccountGateway.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.1958042" vertical-offset="1660" max-vertical-offset="2232">
-          <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
-          <folding>
-            <element signature="e#48#86#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1265,14 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09440559" vertical-offset="0" max-vertical-offset="1260">
           <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/SetCustomerRfidUid/SetCustomerRfidUid.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6010017" vertical-offset="0" max-vertical-offset="599">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1343,7 +1092,7 @@
         <state vertical-scroll-proportion="0.7797203" vertical-offset="1030" max-vertical-offset="1602">
           <caret line="82" column="5" selection-start-line="71" selection-start-column="3" selection-end-line="82" selection-end-column="5" />
           <folding>
-            <element signature="e#44#82#0#PHP" expanded="true" />
+            <element signature="e#44#82#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1392,68 +1141,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Tests/GetClosestLocation/GetClosestLocation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.37037" vertical-offset="701" max-vertical-offset="1386">
-          <caret line="65" column="76" selection-start-line="65" selection-start-column="76" selection-end-line="65" selection-end-column="76" />
-          <folding>
-            <element signature="e#61#111#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Tariffs/Tariffs/TariffsContext.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.64400715" vertical-offset="486" max-vertical-offset="1386">
           <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/ResetPin/ResetPin.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3305509" vertical-offset="0" max-vertical-offset="599">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/RegisterAccount/RegisterAccount.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45075125" vertical-offset="0" max-vertical-offset="599">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/ListAccount/ListAccount.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30050084" vertical-offset="0" max-vertical-offset="599">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/UpdateCustomerData/UpdateCustomerData.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30050084" vertical-offset="0" max-vertical-offset="599">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/GetOnRfid/GetOnRfid.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="599">
-          <caret line="0" column="27" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/LoginAccount/LoginAccount.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24040067" vertical-offset="0" max-vertical-offset="599">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1466,11 +1157,159 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/UpdateCustomerData/UpdateCustomerData.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30050084" vertical-offset="0" max-vertical-offset="599">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/ResetPin/ResetPin.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/SetCustomerRfidUid/SetCustomerRfidUid.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/ListAccount/ListAccount.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/GetOnRfid/GetOnRfid.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/Tariffs/Command/RedeemVoucherCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3531469" vertical-offset="0" max-vertical-offset="918">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/Tariffs/Gateway/TariffsGateway.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.518518" vertical-offset="688" max-vertical-offset="1260">
+          <caret line="51" column="33" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="33" />
+          <folding>
+            <element signature="e#47#106#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Tests/GetClosestLocation/GetClosestLocation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31293705" vertical-offset="667" max-vertical-offset="1386">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="87" />
+          <folding>
+            <element signature="e#61#111#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/RegisterAccount/RegisterAccount.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1803005" vertical-offset="0" max-vertical-offset="599">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/LoginAccount/LoginAccount.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24040067" vertical-offset="0" max-vertical-offset="599">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/Account/Command/TransferCreditsCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37762237" vertical-offset="108" max-vertical-offset="1944">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Tariffs/RedeemVoucher/RedeemVoucher.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45075125" vertical-offset="0" max-vertical-offset="599">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Tariffs/RedeemVoucher/RedeemVoucherContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6296959" vertical-offset="332" max-vertical-offset="918">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="84" />
+          <folding>
+            <element signature="e#58#112#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/Account/Gateway/AccountGateway.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37062937" vertical-offset="1930" max-vertical-offset="2520">
+          <caret line="119" column="35" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="35" />
+          <folding>
+            <element signature="e#48#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/TransferCredits/TransferCredits.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39065108" vertical-offset="0" max-vertical-offset="599">
+          <caret line="13" column="76" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/ResetPin/ResetPinContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.701049" vertical-offset="391" max-vertical-offset="990">
+          <caret line="50" column="82" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/behat.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12854758" vertical-offset="1561" max-vertical-offset="2160">
-          <caret line="91" column="19" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1777" max-vertical-offset="2376">
+          <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/TransferCredits/TransferCreditsContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76565295" vertical-offset="544" max-vertical-offset="1134">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+          <folding>
+            <element signature="e#60#110#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
