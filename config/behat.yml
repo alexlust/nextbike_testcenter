@@ -112,3 +112,15 @@ default:
           - %paths.base%/../src/tests/integration/features/Tests/GetClosestLocation
          contexts:
           - Nextbike\Context\Tests\GetClosestLocation\GetClosestLocationContext
+
+    RedeemVoucher:
+          paths:
+            - %paths.base%/../src/tests/integration/features/Tariffs/RedeemVoucher
+          contexts:
+            - Nextbike\Context\Tariffs\RedeemVoucher\RedeemVoucherContext
+
+    TransferCredits:
+          paths:
+            - %paths.base%/../src/tests/integration/features/Account/TransferCredits
+          contexts:
+            - Nextbike\Context\Account\TransferCredits\TransferCreditsContext

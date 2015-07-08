@@ -4,13 +4,10 @@ namespace Nextbike\Api\Tariffs\Gateway;
 use Nextbike\Api\Tariffs\Command\SingleTariffByCodeCommand;
 use Nextbike\Api\Tariffs\Command\TariffsCommand;
 use Nextbike\Api\Tariffs\Command\SingleTariffCommand;
+use Nextbike\Api\Tariffs\Command\RedeemVoucherCommand;
 
 
 use Framework\Gateway\AbstractGateway;
-use Nextbike\Api\Account\Command\ListAccountCommand;
-use Nextbike\Api\Account\Command\LoginAccountCommand;
-use Nextbike\Api\Account\Command\RegisterAccountCommand;
-use Nextbike\Api\Account\Command\UpdateCustomerDataCommand;
 
 class TariffsGateway extends AbstractGateway
 {
@@ -52,5 +49,17 @@ class TariffsGateway extends AbstractGateway
         return $this->getAPIResponse('tariffs', $data);
     }
 
+    public function redeemVoucher(RedeemVoucherCommand $command)
+    {
+        $data = [
+            "apikey" => $command->getApiKey(),
+            "code" => $command->getCode(),
+            "loginkey" => $command->getLoginkey(),
+        ];
+
+        var_dump($data);
+
+        return $this->getAPIResponse('voucher', $data);
+    }
 
 }
