@@ -25,5 +25,7 @@
     <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
     <property name="evlsprt.8" value="14ea664e663" />
     <property name="evlsprt2.8" value="14e53684fd2" />
+    <property name="LayoutCode.processChangedText" value="false" />
+    <property name="LayoutCode.optimizeImports" value="false" />
   </component>
 </application>

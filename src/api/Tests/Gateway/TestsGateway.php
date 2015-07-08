@@ -1,56 +1,35 @@
 <?php
 
 namespace Nextbike\Api\Tests\Gateway;
-use Nextbike\Api\Tariffs\Command\SingleTariffByCodeCommand;
-use Nextbike\Api\Tariffs\Command\TariffsCommand;
-use Nextbike\Api\Tariffs\Command\SingleTariffCommand;
-
-
+use Nextbike\Api\Tests\Command;
 use Framework\Gateway\AbstractGateway;
-use Nextbike\Api\Account\Command\ListAccountCommand;
-use Nextbike\Api\Account\Command\LoginAccountCommand;
-use Nextbike\Api\Account\Command\RegisterAccountCommand;
-use Nextbike\Api\Account\Command\UpdateCustomerDataCommand;
+use Nextbike\Api\Tests\Command\PhoneNumberCommand;
+use Nextbike\Api\Tests\Command\GetClosestLocationCommand;
 
 class TestsGateway extends AbstractGateway
 {
 
-    public function getTariffs(TariffsCommand $command)
+
+    public function checkPhoneNumber(PhoneNumberCommand $command)
     {
         $data = [
-            "domain" => $command->getDomain(),
+            "mobile" => $command->getMobile(),
             "apikey" => $command->getApiKey()
         ];
 
         var_dump($data);
 
-        return $this->getAPIResponse('tariffs', $data);
+        return $this->getAPIResponse('login', $data);
     }
 
-
-    public function getSingleTariff(SingleTariffCommand $command)
-    {
+    public function getClosestLocation(GetClosestLocationCommand $command){
         $data = [
-            "uid" => $command->getUid(),
-            "apikey" => $command->getApiKey()
+            "apikey" => $command->getApiKey(),
+            "lat" => $command->getLat(),
+            "lng" => $command->getLng()
         ];
 
-        var_dump($data);
-
-        return $this->getAPIResponse('tariffs', $data);
+        return $this->getAPIResponse('getLocation', $data);
     }
-
-    public function getSingleTariffByCode(SingleTariffByCodeCommand $command)
-    {
-        $data = [
-            "code" => $command->getCode(),
-            "apikey" => $command->getApiKey()
-        ];
-
-        var_dump($data);
-
-        return $this->getAPIResponse('tariffs', $data);
-    }
-
 
 }

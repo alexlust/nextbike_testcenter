@@ -25,20 +25,20 @@ default:
       paths:
         - %paths.base%/../src/tests/integration/features/Bike/GetBikeStateContext
       contexts:
-        - Nextbike\Context\Bike\GetBikeState\GetBikeStateContext
+        - Nextbike\Context\Bike\GetBikeStateContext\GetBikeStateContext
 
 
     updateCustomerDataAccount:
-          paths:
-            - %paths.base%/../src/tests/integration/features/Account/UpdateCustomerData
-          contexts:
-            - Nextbike\Context\Account\UpdateCustomerData\UpdateCustomerDataContext
+      paths:
+        - %paths.base%/../src/tests/integration/features/Account/UpdateCustomerData
+      contexts:
+        - Nextbike\Context\Account\UpdateCustomerDataAccount\UpdateCustomerDataAccountContext
 
     tariffs:
-          paths:
-            - %paths.base%/../src/tests/integration/features/Tariffs/Tariffs
-          contexts:
-            - Nextbike\Context\Tariffs\Tariffs\TariffsContext
+      paths:
+        - %paths.base%/../src/tests/integration/features/Tariffs/Tariffs
+      contexts:
+        - Nextbike\Context\Tariffs\Tariffs\TariffsContext
 
     rentBike:
       paths:
@@ -47,19 +47,68 @@ default:
         - Nextbike\Context\Bike\RentContext\RentContext
 
     singleTariff:
-              paths:
-                - %paths.base%/../src/tests/integration/features/Tariffs/SingleTariff
-              contexts:
-                - Nextbike\Context\Tariffs\SingleTariff\SingleTariffContext
+      paths:
+        - %paths.base%/../src/tests/integration/features/Tariffs/SingleTariff
+      contexts:
+        - Nextbike\Context\Tariffs\SingleTariff\SingleTariffContext
 
     singleTariffbyCode:
-                  paths:
-                    - %paths.base%/../src/tests/integration/features/Tariffs/SingleTariffbyCode
-                  contexts:
-                    - Nextbike\Context\Tariffs\SingleTariff\SingleTariffByCodeContext
+      paths:
+        - %paths.base%/../src/tests/integration/features/Tariffs/SingleTariffbyCode
+      contexts:
+        - Nextbike\Context\Tariffs\SingleTariff\SingleTariffByCodeContext
 
     AbortRentalBike:
       paths:
         - %paths.base%/../src/tests/integration/features/Bike/AbortRental
       contexts:
         - Nextbike\Context\Bike\AbortRentalContext\AbortRentalContext
+
+    PhoneNumber:
+       paths:
+        - %paths.base%/../src/tests/integration/features/Tests/PhoneNumber
+       contexts:
+        - Nextbike\Context\Tests\PhoneNumber\PhoneNumberContext
+
+    ResetPin:
+      paths:
+        - %paths.base%/../src/tests/integration/features/Account/ResetPin
+      contexts:
+        - Nextbike\Context\Account\ResetPin\ResetPinContext
+
+    SetCustomerRfidUid:
+      paths:
+        - %paths.base%/../src/tests/integration/features/Account/SetCustomerRfidUid
+      contexts:
+        - Nextbike\Context\Account\SetCustomerRfidUid\SetCustomerRfidUidContext
+
+    GetOnRfid:
+      paths:
+        - %paths.base%/../src/tests/integration/features/Account/GetOnRfid
+      contexts:
+        - Nextbike\Context\Account\GetOnRfid\GetOnRfidContext
+
+
+    SetBikeRfidUid:
+      paths:
+        - %paths.base%/../src/tests/integration/features/Bike/SetBikeRfidUid
+      contexts:
+        - Nextbike\Context\Bike\SetBikeRfidUid\SetBikeRfidUidContext
+
+    GetBikeRfidUid:
+          paths:
+            - %paths.base%/../src/tests/integration/features/Bike/GetBikeRfidUid
+          contexts:
+            - Nextbike\Context\Bike\GetBikeRfidUid\GetBikeRfidUidContext
+
+    GpsTracking:
+          paths:
+            - %paths.base%/../src/tests/integration/features/Bike/GpsTracking
+          contexts:
+            - Nextbike\Context\Bike\GpsTracking\GpsTrackingContext
+
+    GetClosestLocation:
+         paths:
+          - %paths.base%/../src/tests/integration/features/Tests/GetClosestLocation
+         contexts:
+          - Nextbike\Context\Tests\GetClosestLocation\GetClosestLocationContext

@@ -1,54 +1,55 @@
 <?php
 
-namespace Nextbike\Context\Tests\PhoneNumber;
+namespace Nextbike\Context\Account\ResetPin;
 
 use Behat\Behat\Tester\Exception\PendingException;
-use Nextbike\Api\Tests\Gateway\TestsGateway;
 use Behat\Behat\Context\Context;
-use Nextbike\Api\Tests\Command\PhoneNumberCommand;
 use Behat\Behat\Context\SnippetAcceptingContext;
 use Behat\Gherkin\Node\TableNode;
 use Nextbike\Context\BaseContext;
+use Nextbike\Api\Account\Command\ResetPinCommand;
+use Nextbike\Api\Account\Gateway\AccountGateway;
 
 
-class PhoneNumberContext extends BaseContext implements Context, SnippetAcceptingContext
+
+class ResetPinContext extends BaseContext implements Context, SnippetAcceptingContext
 {
     private $updateInformation;
 
 
     /**
-     * @Given The following valid information
+     * @Given The following valid user information
      */
-    public function theFollowingValidInformation(TableNode $table)
+    public function theFollowingValidUserInformation(TableNode $table)
     {
         $this->updateInformation = $this->getHashFromTable($table);
 
-        $command = new PhoneNumberCommand();
+        $command = new ResetPinCommand();
         $command->setApikey($this->apiKey);
         $command->setMobile($this->getIfIsset('mobile', $this->updateInformation));
-        $gateway = new TestsGateway();
-        $this->response = $gateway->checkPhoneNumber($command);
+        $gateway = new AccountGateway();
+        $this->response = $gateway->resetPin($command);
 
         $this->assertNotNull($this->response);
     }
 
     /**
-     * @When I try to check a specified phone number for existence
+     * @When I try to to reset my pin
      */
-    public function iTryToCheckASpecifiedPhoneNumberForExistence()
+    public function iTryToToResetMyPin()
     {
         var_dump($this->response);
-        $this->assertEquals('491631729531', $this->response['user']['@attributes']['mobile']);
+        $this->assertEquals('4915773967465', $this->response['user']['@attributes']['mobile']);
     }
 
     /**
-     * @Then Then I will get data for existence of user with this phone number
+     * @Then I will get  my account data and a sms with new pin
      */
-    public function iWillGetDataForExistenceOfUserWithThisPhoneNumber()
+    public function iWillGetMyAccountDataAndASmsWithNewPin()
     {
-        $this->assertEquals('EN', $this->response['user']['@attributes']['lang']);
+        var_dump($this->response);
+        $this->assertEquals('DE', $this->response['user']['@attributes']['lang']);
         $this->assertEquals('de', $this->response['user']['@attributes']['domain']);
     }
-
 
 }

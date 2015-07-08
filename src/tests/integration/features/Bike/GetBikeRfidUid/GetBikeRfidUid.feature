@@ -1,20 +1,20 @@
 @bike @bike.getbikerfiduid
-Feature: a developer can set bike FID UID
+Feature: a developer can get bike chip with given FID UID
 
   As an developer
-  I want to set bike RFID UID
+  I want to get bike RFID UID
 
   Background:
     Given the following base information
       | apikey           |
       | 7gFQfSaiKqHWY7bf |
 
-  Scenario: As a developer, i want to set bike RFID UID.
+  Scenario: As a developer, i want to get bike chip with given FID UID.
     Given The following valid user information
-      | loginkey         | rfid       |bike|
-      | AmyeQ9FTlUoEaRzx | 3105899999 |1000|
-    When I try to set bike RFID UID
+      | rfid       |
+      | 3105811111 |
+    When I try to get bike chip with given FID UID
 
-    Then the bike RFID UID will be set
+    Then I will get the bike chip with given RFID UID
 
 

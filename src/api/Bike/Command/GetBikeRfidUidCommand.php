@@ -10,28 +10,10 @@ namespace Nextbike\Api\Bike\Command;
 
 use Framework\Command\AbstractCommand;
 
-class SetBikeRfidUidCommand extends AbstractCommand
+class GetBikeRfidUidCommand extends AbstractCommand
 {
 
     private $rfid;
-    private $loginkey;
-    private $bike;
-
-    /**
-     * @return mixed
-     */
-    public function getBike()
-    {
-        return $this->bike;
-    }
-
-    /**
-     * @param mixed $bike
-     */
-    public function setBike($bike)
-    {
-        $this->bike = $bike;
-    }
 
     /**
      * @return mixed
@@ -48,23 +30,6 @@ class SetBikeRfidUidCommand extends AbstractCommand
     {
         $this->rfid = $rfid;
     }
-
-    /**
-     * @return mixed
-     */
-    public function getLoginkey()
-    {
-        return $this->loginkey;
-    }
-
-    /**
-     * @param mixed $loginkey
-     */
-    public function setLoginkey($loginkey)
-    {
-        $this->loginkey = $loginkey;
-    }
-
 
 
 }

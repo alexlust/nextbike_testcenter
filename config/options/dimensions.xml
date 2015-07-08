@@ -16,6 +16,15 @@
     <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1366.768" x="516" y="25" />
     <location key="CommitChangelistDialog2.0.0.1366.768" x="334" y="100" />
     <location key="com.intellij.ide.util.TipDialog.0.0.1360.768" x="391" y="212" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1360.768" x="376" y="191" />
+    <location key="NewPhpFileDialog.0.0.1360.768" x="480" y="320" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.1360.768" x="488" y="109" />
+    <location key="NewPhpClassDialog.0.0.1360.768" x="475" y="223" />
+    <location key="#com.intellij.structuralsearch.plugin.ui.SearchDialog.0.0.1360.768" x="338" y="143" />
+    <location key="#CheckPhoneNumber.feature.0.0.1360.768" x="365" y="52" />
+    <location key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.0.1360.768" x="0" y="121" />
+    <location key="DiffWindow.0.0.1360.768" x="102" y="125" />
+    <location key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0.0.1360.768" x="102" y="125" />
     <size key="FileChooserDialogImpl.0.0.1366.768" width="426" height="488" />
     <size key="#UpdateCustomerData.feature.0.0.1366.768" width="629" height="681" />
     <size key="NewPhpFileDialog.0.0.1366.768" width="392" height="145" />
@@ -28,5 +37,20 @@
     <size key="#features.0.0.1366.768" width="629" height="681" />
     <size key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1366.768" width="326" height="738" />
     <size key="CommitChangelistDialog2.0.0.1366.768" width="689" height="586" />
+    <size key="#com.intellij.fileTypes.FileTypeChooser.0.0.1360.768" width="610" height="404" />
+    <size key="NewPhpFileDialog.0.0.1360.768" width="392" height="145" />
+    <size key="#com.intellij.ide.util.MemberChooser.0.0.1360.768" width="377" height="567" />
+    <size key="NewPhpClassDialog.0.0.1360.768" width="401" height="340" />
+    <size key="#com.intellij.structuralsearch.plugin.ui.SearchDialog.0.0.1360.768" width="675" height="499" />
+    <size key="#CheckPhoneNumber.feature.0.0.1360.768" width="621" height="681" />
+    <size key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.0.1360.768" width="1156" height="541" />
+    <size key="DiffWindow.0.0.1360.768" width="1156" height="541" />
+    <size key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0.0.1360.768" width="1156" height="541" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog" state="0" />
+    <extendedState key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" state="300" />
+    <extendedState key="DiffWindow" state="0" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.1" state="500" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.0" state="300" />
+    <extendedState key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" state="0" />
   </component>
 </application>

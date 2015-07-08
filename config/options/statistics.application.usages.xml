@@ -6,40 +6,41 @@
     <group name="vcs">
       <project id="nextbike_testcenter" values="Git" />
     </group>
-    <group name="php-include-path">
-      <project id="nextbike_testcenter" values="0" />
-    </group>
     <group name="run-configuration-type-temp">
       <project id="nextbike_testcenter" values="PHPUnitRunConfigurationType,PhpBehatConfigurationType" />
     </group>
     <group name="run-configuration-type">
       <project id="nextbike_testcenter" values="PhpBehatConfigurationType" />
     </group>
-    <group name="php-interpreter-version">
-      <project id="nextbike_testcenter" values="not installed" />
+    <group name="JavaScript versions">
+      <project id="nextbike_testcenter" values="DEFAULT" />
     </group>
     <group name="php-debug-skipped-paths">
       <project id="nextbike_testcenter" values="0" />
     </group>
-    <group name="JavaScript versions">
-      <project id="nextbike_testcenter" values="DEFAULT" />
+    <group name="php-include-path">
+      <project id="nextbike_testcenter" values="0" />
     </group>
     <group name="php-servers">
       <project id="nextbike_testcenter" values="0" />
     </group>
+    <group name="javaScript Scope Usages">
+      <project id="nextbike_testcenter" values="Project,Project" />
+    </group>
     <group name="file-type">
-      <project id="nextbike_testcenter" values="Ini,XML,Locale,UNKNOWN,Cucumber,ReST,ARCHIVE,PHP,Images,Smarty,YAML,JavaScript,JSON,PLAIN_TEXT,TypeScript,CSS,HTML,H2 Database,C++,PHAR" />
+      <project id="nextbike_testcenter" values="Cucumber,ARCHIVE,UNKNOWN,PHP,PHAR,CSS,TypeScript,HTML,JavaScript,JSON,Images,XML,Locale,H2 Database,YAML,C++,ReST,Ini,PLAIN_TEXT,Smarty" />
     </group>
     <group name="module type">
       <project id="nextbike_testcenter" values="WEB_MODULE" />
     </group>
-    <group name="javaScript Scope Usages">
-      <project id="nextbike_testcenter" values="Project,Project" />
+    <group name="php-interpreter-version">
+      <project id="nextbike_testcenter" values="not installed" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="ideaapp.started" count="2" />
+      <entry feature="CreateFile.CreateFileAction" count="1" />
+      <entry feature="ideaapp.started" count="4" />
       <entry feature="tips.of.the.day.next" count="5" />
     </counts>
   </component>

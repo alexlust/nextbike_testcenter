@@ -6,15 +6,32 @@
  * Time: 18:53
  */
 
-namespace Nextbike\Api\Account\Command;
+namespace Nextbike\Api\Bike\Command;
 
 use Framework\Command\AbstractCommand;
 
-class SetCustomerRfidUidCommand extends AbstractCommand
+class SetBikeRfidUidCommand extends AbstractCommand
 {
 
     private $rfid;
     private $loginkey;
+    private $bike;
+
+    /**
+     * @return mixed
+     */
+    public function getBike()
+    {
+        return $this->bike;
+    }
+
+    /**
+     * @param mixed $bike
+     */
+    public function setBike($bike)
+    {
+        $this->bike = $bike;
+    }
 
     /**
      * @return mixed

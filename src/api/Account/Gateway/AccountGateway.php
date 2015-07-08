@@ -6,6 +6,9 @@ use Framework\Gateway\AbstractGateway;
 use Nextbike\Api\Account\Command\ListAccountCommand;
 use Nextbike\Api\Account\Command\LoginAccountCommand;
 use Nextbike\Api\Account\Command\RegisterAccountCommand;
+use Nextbike\Api\Account\Command\ResetPinCommand;
+use Nextbike\Api\Account\Command\GetOnRfidCommand;
+use Nextbike\Api\Account\Command\SetCustomerRfidUidCommand;
 use Nextbike\Api\Tariffs\Command\TariffsCommand;
 use Nextbike\Api\Account\Command\UpdateCustomerDataCommand;
 
@@ -76,5 +79,41 @@ class AccountGateway extends AbstractGateway
         return $this->getAPIResponse('updateCustomerData', $data);
     }
 
+    public function resetPin(ResetPinCommand $command)
+    {
+        $data = [
+            "mobile" => $command->getMobile(),
+            "apikey" => $command->getApiKey()
+        ];
+
+        var_dump($data);
+
+        return $this->getAPIResponse('pinRecover', $data);
+    }
+
+    public function getOnRfid(GetOnRfidCommand $command)
+    {
+        $data = [
+            "rfid" => $command->getRfid(),
+            "apikey" => $command->getApiKey()
+        ];
+
+        var_dump($data);
+
+        return $this->getAPIResponse('findRfid', $data);
+    }
+
+    public function setCustomerRfidUid(SetCustomerRfidUidCommand $command)
+    {
+        $data = [
+            "rfid" => $command->getRfid(),
+            "apikey" => $command->getApiKey(),
+            "loginkey" => $command->getLoginkey()
+        ];
+
+        var_dump($data);
+
+        return $this->getAPIResponse('setCustomerRfid', $data);
+    }
 
 }

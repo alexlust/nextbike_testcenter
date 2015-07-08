@@ -1,20 +1,20 @@
-@account @account.resetpin
-Feature: a user can reset his pin
+@account @account.setcustomerrfiduid
+Feature: a developer can set customer RFID UID
 
-  As an unregistered user
-  I want to reset my pin
+  As an developer
+  I want to set customer RFID UID
 
   Background:
     Given the following base information
       | apikey           |
       | 7gFQfSaiKqHWY7bf |
 
-  Scenario: As a unregistered person, i want to reset my pin.
+  Scenario: As a developer, i want to set customer RFID UID.
     Given The following valid user information
-      | mobile |
-      | 4915773967465   |
-    When I try to to reset my pin
+      | loginkey         | rfid       |
+      | AmyeQ9FTlUoEaRzx | 3105877777 |
+    When I try to set customer RFID UID
 
-    Then I will get  my account data and a sms with new pin
+    Then the customer RFID UID will be set
 
 
