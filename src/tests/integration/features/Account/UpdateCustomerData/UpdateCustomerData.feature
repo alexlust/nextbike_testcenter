@@ -17,5 +17,5 @@ Feature: a user can update his account
     Given The stored loginkey
     When I try to change my account with the following information
       | mobile       | zip   | address          | city    | bank_code | language | newsletter | country |
-      | generate_new | 01477 | Thomasiusstr. 18 | Leipzig | 76360033  | ar       | true       | de      |
+      | 491631729531 | 01477 | Thomasiusstr. 18 | Leipzig | 76360033  | ar       | true       | de      |
     Then The API Response will have the right updated user information

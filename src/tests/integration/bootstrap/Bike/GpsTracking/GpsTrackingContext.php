@@ -5,17 +5,17 @@
  * Date: 06.07.15
  * Time: 21:45
  */
-namespace Nextbike\Context\Bike\SetBikeRfidUid;
+namespace Nextbike\Context\Bike\GpsTracking;
 
 use Behat\Behat\Tester\Exception\PendingException;
 use Nextbike\Api\Bike\Gateway\BikeGateway;
 use Behat\Behat\Context\Context;
-use Nextbike\Api\Bike\Command\SetBikeRfidUidCommand;
+use Nextbike\Api\Bike\Command\GpsTrackingCommand;
 use Behat\Behat\Context\SnippetAcceptingContext;
 use Behat\Gherkin\Node\TableNode;
 use Nextbike\Context\BaseContext;
 
-class SetBikeRfidUidContext extends BaseContext implements Context, SnippetAcceptingContext
+class GpsTrackingContext extends BaseContext implements Context, SnippetAcceptingContext
 {
     private $updateInformation;
 
@@ -26,31 +26,34 @@ class SetBikeRfidUidContext extends BaseContext implements Context, SnippetAccep
     {
         $this->updateInformation = $this->getHashFromTable($table);
 
-        $command = new SetBikeRfidUidCommand();
+        $command = new GpsTrackingCommand();
         $command->setApikey($this->apiKey);
-        $command->setLoginkey($this->getIfIsset('loginkey', $this->updateInformation));
-        $command->setRfid($this->getIfIsset('rfid', $this->updateInformation));
         $command->setBike($this->getIfIsset('bike', $this->updateInformation));
+        $command->setLat($this->getIfIsset('lat', $this->updateInformation));
+        $command->setLng($this->getIfIsset('lng', $this->updateInformation));
+        $command->setAccuracy($this->getIfIsset('accuracy', $this->updateInformation));
+        $command->setComment($this->getIfIsset('comment', $this->updateInformation));
+
         $gateway = new BikeGateway();
-        $this->response = $gateway->setBikeRfidUid($command);
+        $this->response = $gateway->trackGPSBike($command);
 
         $this->assertNotNull($this->response);
     }
 
     /**
-     * @When I try to set bike RFID UID
+     * @When I try to track a bike
      */
-    public function iTryToSetBikeRfidUid()
+    public function iTryToTrackABike()
     {
         var_dump($this->response);
     }
 
     /**
-     * @Then the bike RFID UID will be set
+     * @Then the bike will be tracked
      */
-    public function theBikeRfidUidWillBeSet()
+    public function theBikeWillBeTracked()
     {
-        var_dump($this->response);
+        $this->assertEquals('captured', $this->response['tracking']['@attributes']['state']);
     }
 
 }

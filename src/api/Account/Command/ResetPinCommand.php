@@ -6,11 +6,11 @@
  * Time: 18:53
  */
 
-namespace Nextbike\Api\Tests\Command;
+namespace Nextbike\Api\Account\Command;
 
 use Framework\Command\AbstractCommand;
 
-class PhoneNumberCommand extends AbstractCommand
+class ResetPinCommand extends AbstractCommand
 {
 
     private $mobile;

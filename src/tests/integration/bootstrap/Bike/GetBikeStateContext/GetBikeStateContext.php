@@ -1,6 +1,6 @@
 <?php
 
-namespace Nextbike\Context\Bike\GetBikeState;
+namespace Nextbike\Context\Bike\GetBikeStateContext;
 
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;

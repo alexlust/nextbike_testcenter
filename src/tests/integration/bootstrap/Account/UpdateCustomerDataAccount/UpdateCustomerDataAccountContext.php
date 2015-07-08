@@ -1,6 +1,6 @@
 <?php
 
-namespace Nextbike\Context\Account\UpdateCustomerData;
+namespace Nextbike\Context\Account\UpdateCustomerDataAccount;
 
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
@@ -9,7 +9,7 @@ use Nextbike\Api\Account\Command\UpdateCustomerDataCommand;
 use Nextbike\Api\Account\Gateway\AccountGateway;
 use Nextbike\Context\BaseContext;
 
-class UpdateCustomerDataContext extends BaseContext implements Context, SnippetAcceptingContext
+class UpdateCustomerDataAccountContext extends BaseContext implements Context, SnippetAcceptingContext
 {
     private $updateInformation;
 

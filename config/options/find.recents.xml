@@ -15,6 +15,10 @@
       <find>$uid</find>
       <find>SingleTariff</find>
       <find>['tariff'][0]</find>
+      <find>GetBikeStateContext</find>
+      <find>iTryToGetTheStateNumberWithTheGivenInformation</find>
+      <find>TableNode</find>
+      <find>upda</find>
     </findStrings>
     <replaceStrings>
       <replace>code</replace>

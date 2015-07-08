@@ -1,14 +1,15 @@
 <versions>
   <component name="CodeStyleSchemeSettings" version="1434721572595" />
   <component name="CodeStyleSchemes" version="1434721572596" />
-  <component name="DimensionService" version="1435918432818" />
+  <component name="DimensionService" version="1436216629692" />
   <component name="EditorColorsManagerImpl" version="1434718810042" />
-  <component name="ExternalResourceManagerImpl" version="1435918432833" />
-  <component name="FeatureUsageStatistics" version="1435066470023" />
+  <component name="ExportableTemplateSettings" version="1435920059420" />
+  <component name="ExternalResourceManagerImpl" version="1436172964486" />
+  <component name="FeatureUsageStatistics" version="1436275162926" />
   <component name="FileBasedIndex" version="1434718810055" />
-  <component name="FileTypeManager" version="1434718810064" />
-  <component name="FindRecents" version="1435065552938" />
-  <component name="GeneralSettings" version="1435918432878" />
+  <component name="FileTypeManager" version="1436190025775" />
+  <component name="FindRecents" version="1436195918081" />
+  <component name="GeneralSettings" version="1436172964510" />
   <component name="Git.Application.Settings" version="1434721572660" />
   <component name="KeymapManager" version="1434718810106" />
   <component name="LafManager" version="1434718810106" />
@@ -17,18 +18,19 @@
   <component name="NotificationConfiguration" version="1434979214898" />
   <component name="PluginManagerConfigurable" version="1434718810111" />
   <component name="ProjectManager" version="1434718810121" />
-  <component name="PropertiesComponent" version="1435918432911" />
+  <component name="PropertiesComponent" version="1436176924534" />
   <component name="RecentDirectoryProjectsManager" version="1435566403282" />
   <component name="Registry" version="1434721572694" />
-  <component name="StatisticsApplicationUsages" version="1435918432924" />
+  <component name="RunnerLayoutSettings" version="1436216629701" />
+  <component name="StatisticsApplicationUsages" version="1436172964543" />
   <component name="TemplateSettings" version="1434723143177" />
   <component name="TodoConfiguration" version="1434718810123" />
   <component name="UISettings" version="1434966100961" />
   <component name="UpdatesConfigurable" version="1434718810142" />
-  <component name="UsageTrigger" version="1435918432931" />
-  <component name="UsagesStatistic" version="1434718810144" />
+  <component name="UsageTrigger" version="1436190025780" />
+  <component name="UsagesStatistic" version="1435920051518" />
   <component name="WebBrowsersConfiguration" version="1434721572752" />
   <component name="WebServers" version="1434721572853" />
-  <component name="WindowManager" version="1435918801930" />
+  <component name="WindowManager" version="1436255631286" />
   <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl" version="1434721572861" />
 </versions>

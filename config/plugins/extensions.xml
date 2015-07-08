@@ -3071,6 +3071,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="ruby.dal">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="dal-mpe" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="setup.txt">
       <plugins>
         <option name="myPlugins">

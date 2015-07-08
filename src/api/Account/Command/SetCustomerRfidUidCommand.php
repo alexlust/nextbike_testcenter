@@ -10,29 +10,44 @@ namespace Nextbike\Api\Account\Command;
 
 use Framework\Command\AbstractCommand;
 
-class ResetPinCommand extends AbstractCommand
+class SetCustomerRfidUidCommand extends AbstractCommand
 {
 
-    private $mobile;
+    private $rfid;
+    private $loginkey;
 
     /**
      * @return mixed
      */
-    public function getMobile()
+    public function getRfid()
     {
-        return $this->mobile;
+        return $this->rfid;
     }
 
     /**
-     * @param mixed $mobile
+     * @param mixed $rfid
      */
-    public function setMobile($mobile)
+    public function setRfid($rfid)
     {
-        $this->mobile = $mobile;
+        $this->rfid = $rfid;
     }
 
     /**
      * @return mixed
      */
+    public function getLoginkey()
+    {
+        return $this->loginkey;
+    }
+
+    /**
+     * @param mixed $loginkey
+     */
+    public function setLoginkey($loginkey)
+    {
+        $this->loginkey = $loginkey;
+    }
+
+
 
 }
