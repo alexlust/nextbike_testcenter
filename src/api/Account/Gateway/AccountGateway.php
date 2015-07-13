@@ -10,6 +10,7 @@ use Nextbike\Api\Account\Command\ResetPinCommand;
 use Nextbike\Api\Account\Command\GetOnRfidCommand;
 use Nextbike\Api\Account\Command\SetCustomerRfidUidCommand;
 use Nextbike\Api\Account\Command\UpdateCustomerDataCommand;
+use Nextbike\Api\Account\Command\UpdateUserCommand;
 use Nextbike\Api\Account\Command\TransferCreditsCommand;
 
 
@@ -29,9 +30,9 @@ class AccountGateway extends AbstractGateway
             "name" => $command->getName(),
             "pin" => $command->getPin()
         ];
-        $response = $this->getAPIResponse( 'register', $data );
-        $log=$this->getAPIResponse( "voucher", [ "apikey" => $command->getApikey(), "loginkey" =>
-                $response['user']['@attributes']['loginkey'], "code" => getenv( "VOUCHER_CODE" ) ] );
+        $response = $this->getAPIResponse('register', $data);
+        $log = $this->getAPIResponse("voucher", ["apikey" => $command->getApikey(), "loginkey" =>
+            $response['user']['@attributes']['loginkey'], "code" => getenv("VOUCHER_CODE")]);
         var_dump($log);
         return $response;
     }
@@ -131,5 +132,30 @@ class AccountGateway extends AbstractGateway
         var_dump($data);
 
         return $this->getAPIResponse('transfer', $data);
+    }
+
+    public function updateUser(UpdateUserCommand $command)
+    {
+        $data = [
+            "apikey" => $command->getApiKey(),
+            'loginkey' => $command->getLoginkey(),
+            'mobile' => $command->getMobile(),
+            'country' => $command->getCountry(),
+            'zip' => $command->getZip(),
+            'email' => $command->getEmail(),
+            'forename' => $command->getForename(),
+            'name' => $command->getName(),
+            'address' => $command->getAddress(),
+            'city' => $command->getCity(),
+            'language' => $command->getLanguage(),
+            'payment' => $command->getPayment(),
+            'iban' => $command->getIban(),
+            'bic' => $command->getBic(),
+            'newsletter' => $command->getNewsletter()
+        ];
+
+        var_dump($data);
+
+        return $this->getAPIResponse('updateUser', $data);
     }
 }

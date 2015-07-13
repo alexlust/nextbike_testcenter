@@ -19,11 +19,18 @@
       <find>iTryToGetTheStateNumberWithTheGivenInformation</find>
       <find>TableNode</find>
       <find>upda</find>
+      <find>getFo</find>
+      <find>SetStationNumberContext.php</find>
+      <find>$command-&gt;setLoginkey($this-&gt;getIfIsset('loginkey', $this-&gt;updateInformation));</find>
+      <find>get</find>
     </findStrings>
     <replaceStrings>
       <replace>code</replace>
       <replace>$code</replace>
       <replace>['tariff']</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/workspace/nextbike_testcenter/src/tests/integration/bootstrap/Place/SetStationNumber</dir>
+    </dirStrings>
   </component>
 </application>

@@ -2,11 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1122c52d-bc92-4352-b144-f9312f4fdf96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Tariffs/Command/RedeemVoucherCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Tariffs/RedeemVoucher/RedeemVoucherContext.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/features/Account/TransferCredits/TransferCredits.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Account/Command/TransferCreditsCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/TransferCredits/TransferCreditsContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/features/Bike/ActiveBookings/ActiveBookings.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Bike/Command/ActiveBookingsCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/ActiveBookings/ActiveBookingsContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/features/Bike/BikesAvailableToBook/BikesAvailableToBook.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Bike/Command/BikesAvailableToBookCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/BikesAvailableToBook/BikesAvailableToBookContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/features/Bike/Booking/Booking.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Bike/Command/BookingCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/Booking/BookingContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/features/Bike/CancelBooking/CancelBooking.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Bike/Command/CancelBookingCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/CancelBooking/CancelBookingContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/features/Tests/GetInvoices/GetInvoices.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Tests/Command/GetInvoicesCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Tests/GetInvoices/GetInvoicesContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/features/Tests/GetTerminalInfo/GetTerminalInfo.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Tests/Command/GetTerminalInfoCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Tests/GetTerminalInfo/GetTerminalInfoContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Place/Gateway/PlaceGateway.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/features/Place/SetStationNumber/SetStationNumber.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Place/Command/SetStationNumberCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Place/SetStationNumber/SetStationNumberContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Team/Gateway/TeamGateway.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/features/Bike/UpdateBike/UpdateBike.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Bike/Command/UpdateBikeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/UpdateBike/UpdateBikeContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/features/Team/UpdateTeamMember/UpdateTeamMember.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Team/Command/UpdateTeamMemberCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Team/UpdateTeamMember/UpdateTeamMemberContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/features/Account/UpdateUser/UpdateUser.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/Account/Command/UpdateUserCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/UpdateUser/UpdateUserContext.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/3.tree" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations" afterPath="$PROJECT_DIR$/vendor/doctrine/annotations" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/asset" afterPath="$PROJECT_DIR$/vendor/symfony/asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/behat/behat" afterPath="$PROJECT_DIR$/vendor/behat/behat" />
@@ -44,6 +72,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mockery/mockery" afterPath="$PROJECT_DIR$/vendor/mockery/mockery" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/mongodb-odm" afterPath="$PROJECT_DIR$/vendor/doctrine/mongodb-odm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/mongodb" afterPath="$PROJECT_DIR$/vendor/doctrine/mongodb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/php-token-stream" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
@@ -64,13 +93,29 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation" afterPath="$PROJECT_DIR$/vendor/symfony/translation" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/behat/transliterator" afterPath="$PROJECT_DIR$/vendor/behat/transliterator" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml" afterPath="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env" afterPath="$PROJECT_DIR$/.env" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.rse.core/.log" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.rse.core/.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/framework/Command/AbstractCommand.php" afterPath="$PROJECT_DIR$/src/framework/Command/AbstractCommand.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/Account/Gateway/AccountGateway.php" afterPath="$PROJECT_DIR$/src/api/Account/Gateway/AccountGateway.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/Tariffs/Gateway/TariffsGateway.php" afterPath="$PROJECT_DIR$/src/api/Tariffs/Gateway/TariffsGateway.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/integration/bootstrap/BaseContext.php" afterPath="$PROJECT_DIR$/src/tests/integration/bootstrap/BaseContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/Bike/Gateway/BikeGateway.php" afterPath="$PROJECT_DIR$/src/api/Bike/Gateway/BikeGateway.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/Tests/Gateway/TestsGateway.php" afterPath="$PROJECT_DIR$/src/api/Tests/Gateway/TestsGateway.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/appComponentVersions.xml" afterPath="$PROJECT_DIR$/config/options/appComponentVersions.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/plugins/availables.xml" afterPath="$PROJECT_DIR$/config/plugins/availables.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/behat.yml" afterPath="$PROJECT_DIR$/config/behat.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/dimensions.xml" afterPath="$PROJECT_DIR$/config/options/dimensions.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/feature.usage.statistics.xml" afterPath="$PROJECT_DIR$/config/options/feature.usage.statistics.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/find.recents.xml" afterPath="$PROJECT_DIR$/config/options/find.recents.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/ide.general.xml" afterPath="$PROJECT_DIR$/config/options/ide.general.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/other.xml" afterPath="$PROJECT_DIR$/config/options/other.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/componentVersions/project993d3533.xml" afterPath="$PROJECT_DIR$/config/componentVersions/project993d3533.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/statistics.application.usages.xml" afterPath="$PROJECT_DIR$/config/options/statistics.application.usages.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/version.ini" afterPath="$PROJECT_DIR$/.metadata/version.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/options/window.manager.xml" afterPath="$PROJECT_DIR$/config/options/window.manager.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nextbike_testcenter.iws" />
@@ -102,24 +147,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="behat.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/behat.yml">
+      <file leaf-file-name="CancelBookingContext.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/CancelBooking/CancelBookingContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1777" max-vertical-offset="2376">
-              <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
-              <folding />
+            <state vertical-scroll-proportion="-16.518518" vertical-offset="490" max-vertical-offset="1098">
+              <caret line="57" column="82" selection-start-line="57" selection-start-column="82" selection-end-line="57" selection-end-column="82" />
+              <folding>
+                <element signature="e#134#184#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransferCreditsContext.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/TransferCredits/TransferCreditsContext.php">
+      <file leaf-file-name="BaseContext.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/BaseContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76565295" vertical-offset="544" max-vertical-offset="1134">
-              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.4965035" vertical-offset="1750" max-vertical-offset="2358">
+              <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding>
-                <element signature="e#60#110#0#PHP" expanded="true" />
+                <element signature="e#36#69#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,47 +189,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/api/Locations/Command/LocationsCommand.php" />
-        <option value="$PROJECT_DIR$/src/api/Locations/Gateway/LocationsGateway.php" />
-        <option value="$PROJECT_DIR$/src/api/Tests/Gateway/TariffsGateway.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/UpdateCustomerDataAccount/UpdateCustomerDataAccountContext.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/features/Tests/PhoneNumber/CheckPhoneNumber.feature" />
-        <option value="$PROJECT_DIR$/src/tests/integration/features/Tests/PhoneNumber/PhoneNumber" />
-        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Tests/PhoneNumber/CheckPhoneNumberContext.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/features/Tariffs/Tests/PhoneNumber/PhoneNumber.feature" />
-        <option value="$PROJECT_DIR$/src/tests/integration/features/Tests/PhoneNumber/Tariffs.feature" />
-        <option value="$PROJECT_DIR$/src/tests/integration/features/Account/UpdateCustomerData/UpdateCustomerData.feature" />
-        <option value="$PROJECT_DIR$/src/api/Tests/Command/TestsCommand.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/GetBikeStateContext/GetBikeStateContext.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/features/Tests/PhoneNumber/Rent.feature" />
-        <option value="$PROJECT_DIR$/src/api/Tests/Command/PhoneNumberCommand.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/features/Tests/PhoneNumber/PhoneNumber.feature" />
-        <option value="$PROJECT_DIR$/src/tests/integration/features/Account/ResetPin/ResetPin.feature" />
-        <option value="$PROJECT_DIR$/src/api/Account/Command/ResetPinCommand.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/GetOnRfid/ResetPinContext.php" />
-        <option value="$PROJECT_DIR$/src/api/Account/Command/GetOnRfidCommand.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Tests/PhoneNumber/PhoneNumberContext.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/ResetPin/ResetPinContext.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/features/Account/SetCustomerRfidUid/SetCustomerRfidUid.feature" />
-        <option value="$PROJECT_DIR$/src/tests/integration/features/Account/GetOnRfid/GetOnRfid.feature" />
-        <option value="$PROJECT_DIR$/src/api/Account/Command/SetCustomerRfidUidCommand.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/features/Bike/SetBikeRfidUid/SetBikeRfidUid.feature" />
-        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/SetCustomerRfidUid/SetCustomerRfidUidContext.php" />
-        <option value="$PROJECT_DIR$/src/api/Bike/Command/SetBikeRfidUidCommand.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/SetBikeRfidUid/SetBikeRfidUidContext.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/features/Bike/GetBikeRfidUid/SetBikeRfidUid.feature" />
-        <option value="$PROJECT_DIR$/src/api/Bike/Command/GetBikeRfidUidCommand.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/GetOnRfid/GetOnRfidContext.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/features/Bike/GetBikeRfidUid/GetBikeRfidUid.feature" />
-        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/GetBikeRfidUid/GetBikeRfidUidContext.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/features/Bike/GpsTracking/SetBikeRfidUid.feature" />
-        <option value="$PROJECT_DIR$/src/api/Bike/Command/SetCustomerRfidUidCommand.php" />
-        <option value="$PROJECT_DIR$/src/api/Bike/Command/GpsTrackingCommand.php" />
-        <option value="$PROJECT_DIR$/src/api/Bike/Gateway/BikeGateway.php" />
-        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/GpsTracking/GpsTrackingContext.php" />
         <option value="$PROJECT_DIR$/src/tests/integration/features/Tests/GetClosestLocation/GetClosestLocation.feature" />
         <option value="$PROJECT_DIR$/src/api/Tests/Command/GetClosestLocationCommand.php" />
-        <option value="$PROJECT_DIR$/src/api/Tests/Gateway/TestsGateway.php" />
         <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Tests/GetClosestLocation/GetClosestLocation.php" />
         <option value="$PROJECT_DIR$/src/tests/integration/features/Tariffs/RedeemVoucher/RedeemVoucher.feature" />
         <option value="$PROJECT_DIR$/src/api/Tariffs/Command/RedeemVoucherCommand.php" />
@@ -180,9 +198,48 @@
         <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Tariffs/RedeemVoucher/RedeemVoucherContext.php" />
         <option value="$PROJECT_DIR$/src/tests/integration/features/Account/TransferCredits/TransferCredits.feature" />
         <option value="$PROJECT_DIR$/src/api/Account/Command/TransferCreditsCommand.php" />
-        <option value="$PROJECT_DIR$/src/api/Account/Gateway/AccountGateway.php" />
-        <option value="$PROJECT_DIR$/config/behat.yml" />
         <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/TransferCredits/TransferCreditsContext.php" />
+        <option value="$PROJECT_DIR$/src/api/Account/Command/UpdateUserCommand.php" />
+        <option value="$PROJECT_DIR$/src/api/Account/Gateway/AccountGateway.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/features/Account/UpdateUser/UpdateUser.feature" />
+        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/UpdateUser/UpdateUserContext.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/features/Tests/GetInvoices/GetInvoices.feature" />
+        <option value="$PROJECT_DIR$/src/api/Tests/Command/GetInvoicesCommand.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Tests/GetInvoices/GetInvoicesContext.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/features/Tests/GetTerminalInfo/GetTerminalInfo.feature" />
+        <option value="$PROJECT_DIR$/src/api/Tests/Command/GetTerminalInfoCommand.php" />
+        <option value="$PROJECT_DIR$/src/api/Tests/Gateway/TestsGateway.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Tests/GetTerminalInfo/GetTerminalInfoContext.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/features/Place/SetStationNumber.feature" />
+        <option value="$PROJECT_DIR$/src/api/Place/Command/SetStationNumberCommand.php" />
+        <option value="$PROJECT_DIR$/src/api/Place/Gateway/PlaceGateway.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Place/SetStationNumber/SetStationNumberContext.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/features/Bike/UpdateBike/SetBikeRfidUid.feature" />
+        <option value="$PROJECT_DIR$/src/api/Bike/Command/UpdateBikeCommand.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/UpdateBike/UpdateBikeContext.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/features/Team/UpdateTeamMember/UpdateTeamMember.feature" />
+        <option value="$PROJECT_DIR$/src/api/Team/Command/UpdateTeamMemberCommand.php" />
+        <option value="$PROJECT_DIR$/src/api/Team/Gateway/TeamGateway.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Team/UpdateTeamMember/UpdateTeamMemberContext.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/features/Bike/BikesAvailableToBook/BikesAvailableToBook.feature" />
+        <option value="$PROJECT_DIR$/src/api/Bike/Command/BikesAvailableToBookCommand.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Account/UpdateCustomerDataAccount/UpdateCustomerDataAccountContext.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/BikesAvailableToBook/BikesAvailableToBookContext.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/features/Bike/Booking/Booking.feature" />
+        <option value="$PROJECT_DIR$/src/api/Bike/Command/BookingCommand.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/features/Bike/ActiveBookings/Booking.feature" />
+        <option value="$PROJECT_DIR$/src/tests/integration/features/Bike/ActiveBookings/ActiveBookings.feature" />
+        <option value="$PROJECT_DIR$/src/api/Bike/Command/ActiveBookingsCommand.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/ActiveBookings/ActiveBookingsContext.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/features/Bike/CancelBooking/CancelBooking.feature" />
+        <option value="$PROJECT_DIR$/src/api/Bike/Gateway/BikeGateway.php" />
+        <option value="$PROJECT_DIR$/config/behat.yml" />
+        <option value="$PROJECT_DIR$/src/framework/Command/AbstractCommand.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/Booking/BookingContext.php" />
+        <option value="$PROJECT_DIR$/src/api/Bike/Command/CancelBookingCommand.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/BaseContext.php" />
+        <option value="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/CancelBooking/CancelBookingContext.php" />
+        <option value="$PROJECT_DIR$/.env" />
       </list>
     </option>
   </component>
@@ -285,134 +342,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tariffs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tariffs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RedeemVoucher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransferCredits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -443,7 +372,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tests" />
+              <option name="myItemId" value="Bike" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -458,214 +387,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tariffs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tariffs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RedeemVoucher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ResetPin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nextbike_testcenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RemoteSystemsTempFiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -680,6 +401,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nextbike_testcenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nextbike_testcenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -700,18 +435,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/api/Account/Command" />
-      <recent name="$PROJECT_DIR$/src/tests/integration/bootstrap/Account" />
-      <recent name="$PROJECT_DIR$/src/tests/integration/features" />
-      <recent name="$PROJECT_DIR$/src/api/Tariffs/Command" />
-      <recent name="$PROJECT_DIR$/src/tests/integration/bootstrap/Tariffs" />
+      <recent name="$PROJECT_DIR$/src/api/Bike/Command" />
+      <recent name="$PROJECT_DIR$/src/tests/integration/features/Bike" />
+      <recent name="$PROJECT_DIR$/src/tests/integration/bootstrap/Bike" />
+      <recent name="$PROJECT_DIR$/src/api" />
+      <recent name="$PROJECT_DIR$/src/tests/integration/bootstrap" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tests/integration/features/Place/SetStationNumber" />
       <recent name="$PROJECT_DIR$/src/tests/integration/features/Account" />
       <recent name="$PROJECT_DIR$/src/tests/integration/features/Tests/PhoneNumber" />
       <recent name="$PROJECT_DIR$/src/tests/integration/bootstrap/Tariffs/SingleTariff" />
       <recent name="$PROJECT_DIR$/src/tests/integration/features/Tariffs/SingleTariff" />
-      <recent name="$PROJECT_DIR$/src/tests/integration" />
     </key>
   </component>
   <component name="RunManager" selected="Behat.CheckPhoneNumber.feature">
@@ -741,6 +476,9 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -748,9 +486,6 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="false" name="RegisterAccount.feature" type="PhpBehatConfigurationType" factoryName="Behat">
@@ -771,9 +506,9 @@
       <item index="0" class="java.lang.String" itemvalue="Behat.UpdateCustomerData.feature" />
       <item index="1" class="java.lang.String" itemvalue="Behat.RegisterAccount.feature" />
       <item index="2" class="java.lang.String" itemvalue="Behat.Tariffs.features" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.UpdateCustomerDataContext" />
-      <item index="4" class="java.lang.String" itemvalue="Behat.features" />
-      <item index="5" class="java.lang.String" itemvalue="Behat.CheckPhoneNumber.feature" />
+      <item index="3" class="java.lang.String" itemvalue="Behat.CheckPhoneNumber.feature" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.UpdateCustomerDataContext" />
+      <item index="5" class="java.lang.String" itemvalue="Behat.features" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -803,10 +538,10 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28843227" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2929985" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -815,9 +550,9 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -835,10 +570,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28843227" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2929985" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -859,372 +594,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/UpdateCustomerDataAccount/UpdateCustomerDataAccountContext.php</url>
-          <line>4</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/api/Account/Command/ResetPinCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6381119" vertical-offset="85" max-vertical-offset="684">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Account/Command/ListAccountCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="270">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Account/Command/GetOnRfidCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53496504" vertical-offset="0" max-vertical-offset="612">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Tests/PhoneNumber/PhoneNumberContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25174826" vertical-offset="162" max-vertical-offset="1080">
-          <caret line="17" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#54#104#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Account/Command/SetCustomerRfidUidCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38636363" vertical-offset="355" max-vertical-offset="954">
-          <caret line="37" column="33" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Bike/GetBikeState/GetBikeState.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="599">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/SetCustomerRfidUid/SetCustomerRfidUidContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7101968" vertical-offset="665" max-vertical-offset="1224">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
-            <element signature="e#142#192#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Bike/GetBikeRfidUid/GetBikeRfidUid.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/GetOnRfid/GetOnRfidContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43356642" vertical-offset="652" max-vertical-offset="1224">
-          <caret line="50" column="95" selection-start-line="49" selection-start-column="8" selection-end-line="50" selection-end-column="95" />
-          <folding>
-            <element signature="e#54#104#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Bike/Rent/Rent.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84140235" vertical-offset="0" max-vertical-offset="666">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Bike/Command/ReturnCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34615386" vertical-offset="0" max-vertical-offset="572">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/phpstorm80.key">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="599">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Bike/Command/RentCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7237762" vertical-offset="0" max-vertical-offset="810">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/BaseContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.0524476" vertical-offset="0" max-vertical-offset="1890">
-          <caret line="100" column="31" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Bike/AbortRental/AbortRental.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6010017" vertical-offset="0" max-vertical-offset="630">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/GetBikeRfidUid/GetBikeRfidUidContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37062937" vertical-offset="418" max-vertical-offset="990">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="e#135#185#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Bike/Command/GetBikeRfidUidCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8811189" vertical-offset="0" max-vertical-offset="630">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Bike/Command/SetBikeRfidUidCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09440559" vertical-offset="0" max-vertical-offset="1260">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/behat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Bike/GpsTracking/GpsTracking.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48080134" vertical-offset="0" max-vertical-offset="599">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Bike/Command/GpsTrackingCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9527972" vertical-offset="1219" max-vertical-offset="1926">
-          <caret line="98" column="5" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/RentContext/RentContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7167832" vertical-offset="904" max-vertical-offset="1476">
-          <caret line="80" column="81" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/SetBikeRfidUid/SetBikeRfidUidContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18181819" vertical-offset="364" max-vertical-offset="1098">
-          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
-            <element signature="e#135#185#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/GetBikeStateContext/GetBikeStateContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7167832" vertical-offset="400" max-vertical-offset="972">
-          <caret line="50" column="100" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Tests/Command/PhoneNumberCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3146853" vertical-offset="0" max-vertical-offset="684">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Bike/Gateway/BikeGateway.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7797203" vertical-offset="1030" max-vertical-offset="1602">
-          <caret line="82" column="5" selection-start-line="71" selection-start-column="3" selection-end-line="82" selection-end-column="5" />
-          <folding>
-            <element signature="e#44#82#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Tests/Command/GetClosestLocationCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4965035" vertical-offset="22" max-vertical-offset="918">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Tests/Gateway/TestsGateway.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5437063" vertical-offset="121" max-vertical-offset="720">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="38" />
-          <folding>
-            <element signature="e#45#76#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Tests/GetClosestLocation/GetClosestLocation.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="599">
-          <caret line="0" column="32" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/GpsTracking/GpsTrackingContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21328671" vertical-offset="490" max-vertical-offset="1062">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="46" />
-          <folding>
-            <element signature="e#132#182#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/ListAccount/ListAccountContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6853147" vertical-offset="454" max-vertical-offset="1026">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Tariffs/Tariffs/TariffsContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.64400715" vertical-offset="486" max-vertical-offset="1386">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Bike/SetBikeRfidUid/SetBikeRfidUid.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.120200336" vertical-offset="0" max-vertical-offset="599">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/UpdateCustomerData/UpdateCustomerData.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30050084" vertical-offset="0" max-vertical-offset="599">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/ResetPin/ResetPin.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/SetCustomerRfidUid/SetCustomerRfidUid.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/ListAccount/ListAccount.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/GetOnRfid/GetOnRfid.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Tariffs/Command/RedeemVoucherCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3531469" vertical-offset="0" max-vertical-offset="918">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Tariffs/Gateway/TariffsGateway.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.518518" vertical-offset="688" max-vertical-offset="1260">
-          <caret line="51" column="33" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="33" />
-          <folding>
-            <element signature="e#47#106#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Tests/GetClosestLocation/GetClosestLocation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31293705" vertical-offset="667" max-vertical-offset="1386">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="87" />
-          <folding>
-            <element signature="e#61#111#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/RegisterAccount/RegisterAccount.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1803005" vertical-offset="0" max-vertical-offset="599">
@@ -1241,74 +615,416 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Account/Command/TransferCreditsCommand.php">
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/ListAccount/ListAccount.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37762237" vertical-offset="108" max-vertical-offset="1944">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Tariffs/RedeemVoucher/RedeemVoucher.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45075125" vertical-offset="0" max-vertical-offset="599">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.30050084" vertical-offset="0" max-vertical-offset="599">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Tariffs/RedeemVoucher/RedeemVoucherContext.php">
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/GetOnRfid/GetOnRfid.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6296959" vertical-offset="332" max-vertical-offset="918">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="84" />
+        <state vertical-scroll-proportion="0.48080134" vertical-offset="0" max-vertical-offset="599">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/RegisterAccount/RegisterAccountContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50524473" vertical-offset="107" max-vertical-offset="1260">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Tariffs/SingleTariff/SingleTariffByCodeContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#58#112#0#PHP" expanded="true" />
+            <element signature="e#57#116#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Account/Gateway/AccountGateway.php">
+    <entry file="file://$PROJECT_DIR$/src/api/Tests/Gateway/TestsGateway.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37062937" vertical-offset="1930" max-vertical-offset="2520">
-          <caret line="119" column="35" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.12587413" vertical-offset="0" max-vertical-offset="1242">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/Team/Gateway/TeamGateway.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="504">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
-            <element signature="e#48#86#0#PHP" expanded="true" />
+            <element signature="e#45#83#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/TransferCredits/TransferCredits.feature">
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Bike/GpsTracking/GpsTracking.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="599">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Team/UpdateTeamMember/UpdateTeamMemberContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45259392" vertical-offset="719" max-vertical-offset="1278">
+          <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+          <folding>
+            <element signature="e#137#187#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/Bike/Command/SetBikeRfidUidCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2027972" vertical-offset="688" max-vertical-offset="1260">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Bike/SetBikeRfidUid/SetBikeRfidUid.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/SetBikeRfidUid/SetBikeRfidUidContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4020979" vertical-offset="274" max-vertical-offset="900">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/GpsTracking/GpsTrackingContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8583916" vertical-offset="355" max-vertical-offset="954">
+          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/GetBikeRfidUid/GetBikeRfidUidContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.25874126" vertical-offset="148" max-vertical-offset="882">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/GetOnRfid/GetOnRfidContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7622378" vertical-offset="436" max-vertical-offset="1116">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/AbortRentalContext/AbortRentalContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.548951" vertical-offset="886" max-vertical-offset="1458">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Place/SetStationNumber/SetStationNumber.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Team/UpdateTeamMember/UpdateTeamMember.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Bike/UpdateBike/UpdateBike.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43003413" vertical-offset="0" max-vertical-offset="586">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Bike/BikesAvailableToBook/BikesAvailableToBook.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42070118" vertical-offset="0" max-vertical-offset="599">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/Bike/Command/UpdateBikeCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.356643" vertical-offset="0" max-vertical-offset="3960">
+          <caret line="207" column="30" selection-start-line="207" selection-start-column="20" selection-end-line="207" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/Bike/Command/GetBikeStateCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.06993007" vertical-offset="40" max-vertical-offset="612">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/Bike/Command/BikesAvailableToBookCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15034965" vertical-offset="1624" max-vertical-offset="2268">
+          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/UpdateBike/UpdateBikeContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0314685" vertical-offset="760" max-vertical-offset="1584">
+          <caret line="80" column="52" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
+          <folding>
+            <element signature="e#131#181#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/BikesAvailableToBook/BikesAvailableToBookContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.703704" vertical-offset="665" max-vertical-offset="1224">
+          <caret line="64" column="120" selection-start-line="55" selection-start-column="7" selection-end-line="64" selection-end-column="120" />
+          <folding>
+            <element signature="e#141#191#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/Bike/Command/ActiveBookingsCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22027972" vertical-offset="0" max-vertical-offset="594">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/ActiveBookings/ActiveBookingsContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52797204" vertical-offset="580" max-vertical-offset="1152">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+          <folding>
+            <element signature="e#135#185#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Bike/ActiveBookings/ActiveBookings.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51085144" vertical-offset="0" max-vertical-offset="599">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Bike/CancelBooking/CancelBooking.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5409015" vertical-offset="0" max-vertical-offset="599">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Bike/Rent/Rent.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6010017" vertical-offset="54" max-vertical-offset="666">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Bike/AbortRental/AbortRental.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51085144" vertical-offset="0" max-vertical-offset="630">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/Command/AbstractCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37762237" vertical-offset="0" max-vertical-offset="900">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Bike/Booking/Booking.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39065108" vertical-offset="0" max-vertical-offset="599">
-          <caret line="13" column="76" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="76" />
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/ResetPin/ResetPinContext.php">
+    <entry file="file://$PROJECT_DIR$/src/api/Bike/Command/BookingCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.701049" vertical-offset="391" max-vertical-offset="990">
-          <caret line="50" column="82" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.09440559" vertical-offset="0" max-vertical-offset="2178">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/UpdateCustomerDataAccount/UpdateCustomerDataAccountContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46503496" vertical-offset="292" max-vertical-offset="1080">
+          <caret line="36" column="9" selection-start-line="34" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/features/Account/UpdateCustomerData/UpdateCustomerData.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6010017" vertical-offset="0" max-vertical-offset="599">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/LoginAccount/LoginAccountContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0384616" vertical-offset="0" max-vertical-offset="864">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/Bike/Gateway/BikeGateway.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.851851" vertical-offset="2290" max-vertical-offset="2862">
+          <caret line="148" column="23" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="23" />
+          <folding>
+            <element signature="e#44#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/Bike/Command/CancelBookingCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.518518" vertical-offset="364" max-vertical-offset="936">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="599">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Dotenv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33272058" vertical-offset="935" max-vertical-offset="1638">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/behat.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1777" max-vertical-offset="2376">
-          <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+        <state vertical-scroll-proportion="-2.4340568" vertical-offset="1458" max-vertical-offset="3438">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Account/TransferCredits/TransferCreditsContext.php">
+    <entry file="file://$PROJECT_DIR$/config/port">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76565295" vertical-offset="544" max-vertical-offset="1134">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="599">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/behat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.450805" vertical-offset="0" max-vertical-offset="559">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/phpunit">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.159213" vertical-offset="18512" max-vertical-offset="19098">
+          <caret line="744" column="14" selection-start-line="744" selection-start-column="14" selection-end-line="744" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/Booking/BookingContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3846154" vertical-offset="108" max-vertical-offset="1188">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
-            <element signature="e#60#110#0#PHP" expanded="true" />
+            <element signature="e#128#178#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/Bike/CancelBooking/CancelBookingContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.518518" vertical-offset="490" max-vertical-offset="1098">
+          <caret line="57" column="82" selection-start-line="57" selection-start-column="82" selection-end-line="57" selection-end-column="82" />
+          <folding>
+            <element signature="e#134#184#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/integration/bootstrap/BaseContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4965035" vertical-offset="1750" max-vertical-offset="2358">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#69#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

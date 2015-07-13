@@ -5,6 +5,9 @@ use Nextbike\Api\Tests\Command;
 use Framework\Gateway\AbstractGateway;
 use Nextbike\Api\Tests\Command\PhoneNumberCommand;
 use Nextbike\Api\Tests\Command\GetClosestLocationCommand;
+use Nextbike\Api\Tests\Command\GetInvoicesCommand;
+use Nextbike\Api\Tests\Command\GetTerminalInfoCommand;
+
 
 class TestsGateway extends AbstractGateway
 {
@@ -31,5 +34,31 @@ class TestsGateway extends AbstractGateway
 
         return $this->getAPIResponse('getLocation', $data);
     }
+
+    public function getInvoices(GetInvoicesCommand $command)
+    {
+        $data = [
+            "apikey" => $command->getApiKey(),
+            "loginkey" => $command->getLoginkey()
+        ];
+
+        var_dump($data);
+
+        return $this->getAPIResponse('getInvoices', $data);
+    }
+
+    public function getTerminalInfo(GetTerminalInfoCommand $command)
+    {
+        $data = [
+            "apikey" => $command->getApiKey(),
+            "terminal_id" => $command->getTerminalId()
+        ];
+
+        var_dump($data);
+
+        return $this->getAPIResponse('getTerminalInfo', $data);
+    }
+
+
 
 }

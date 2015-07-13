@@ -38,8 +38,6 @@ class AbstractCommand
     {
         $this->loginkey = $loginkey;
     }
-
-
 }
 
 

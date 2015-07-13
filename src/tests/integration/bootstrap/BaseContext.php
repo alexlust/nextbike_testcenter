@@ -7,6 +7,7 @@ use Dotenv\Dotenv;
 use Nextbike\Api\Account\Command\RegisterAccountCommand;
 use Nextbike\Api\Account\Gateway\AccountGateway;
 
+
 class BaseContext extends \PHPUnit_Framework_TestCase
 {
     protected $apiKey = null;
@@ -16,7 +17,6 @@ class BaseContext extends \PHPUnit_Framework_TestCase
     protected $response = null;
 
     protected $telefonNumber = null;
-
 
     public function __construct()
     {
@@ -70,7 +70,6 @@ class BaseContext extends \PHPUnit_Framework_TestCase
         return $this->telefonNumber;
     }
 
-
     protected function getHashFromTable(TableNode $table)
     {
         foreach ($table->getHash() as $information) {
@@ -79,12 +78,6 @@ class BaseContext extends \PHPUnit_Framework_TestCase
         return null;
     }
 
-
-    /**
-     * @param $parameter
-     * @param $array
-     * @return mixed
-     */
     protected function getIfIsset($parameter, $array)
     {
         if (isset($array[$parameter])) {
@@ -100,4 +93,34 @@ class BaseContext extends \PHPUnit_Framework_TestCase
     protected function getPlaceId(){
         return getenv("PLACE_ID");
     }
+
+    protected function getStartTime(){
+        return time()+50000;
+    }
+
+    protected function saveBookingId($BookingId){
+        //putenv("BOOKING_ID=$BookingId");
+        $file = __DIR__ .'/../../../../.env';
+
+        file_put_contents($file,preg_replace('^BOOKING_ID = [0-9]{4}^','',file_get_contents($file)));
+
+
+
+        // if(preg_match("/String/",$string))
+
+        $current = file_get_contents($file);
+        $current .= "\n"."BOOKING_ID = ".$BookingId."\n";
+        file_put_contents($file, $current);
+
+    }
+
+    protected function getBookingId(){
+        echo'!!!!!'.getenv("BOOKING_ID");
+        return getenv("BOOKING_ID");
+    }
+    protected function getEndTime(){
+        return time()+1000000;
+    }
+
+
 }

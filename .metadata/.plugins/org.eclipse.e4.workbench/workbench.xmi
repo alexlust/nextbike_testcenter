@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList/>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_cT5aIBTGEeWjX4sSLBKwPQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_c6Jh0BTGEeWjX4sSLBKwPQ" label="%trimmedwindow.label.eclipseSDK" x="2" y="25" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_cT5aIBTGEeWjX4sSLBKwPQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_c6Jh0BTGEeWjX4sSLBKwPQ" label="%trimmedwindow.label.eclipseSDK" x="2" y="25" width="1018" height="763">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workingSets/>"/>
@@ -237,7 +237,7 @@
       <toolbar xmi:id="_AgRG0RWlEeWmivf14XmHvg" elementId="org.eclipse.mylyn.tasks.ui.views.tasks"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_KmdTsBWlEeWmivf14XmHvg" elementId="org.eclipse.rse.ui.view.systemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Remote Systems" iconURI="platform:/plugin/org.eclipse.rse.ui/icons/full/cview16/system_view.gif" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view horizontalPosition=&quot;0&quot; linkWithEditor=&quot;f&quot; release=&quot;2.0.0&quot; showFilterPools=&quot;f&quot; verticalPosition=&quot;0&quot;>&#xA;&lt;expanded>&#xA;&lt;element path=&quot;Conn///alust-Compaq-CQ58-Notebook-PC.Local&quot;/>&#xA;&lt;/expanded>&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view horizontalPosition=&quot;0&quot; linkWithEditor=&quot;t&quot; release=&quot;2.0.0&quot; showFilterPools=&quot;f&quot; verticalPosition=&quot;0&quot;>&#xA;&lt;expanded>&#xA;&lt;element path=&quot;Conn///alust-Compaq-CQ58-Notebook-PC.Local&quot;/>&#xA;&lt;element path=&quot;Subs///alust-Compaq-CQ58-Notebook-PC.Local///local.files=Local Files&quot;/>&#xA;&lt;/expanded>&#xA;&lt;selection>&#xA;&lt;element path=&quot;Subs///alust-Compaq-CQ58-Notebook-PC.Local///local.shells=Local Shells&quot;/>&#xA;&lt;/selection>&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Remote Systems</tags>
       <tags>active</tags>
@@ -287,7 +287,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_dCMDgBTGEeWjX4sSLBKwPQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_uOVnkBWkEeWmivf14XmHvg" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_cVJ-YhTGEeWjX4sSLBKwPQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ur3SQCbVEeWd-NvkEte4jw" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_cVJ-YhTGEeWjX4sSLBKwPQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_dCRjEBTGEeWjX4sSLBKwPQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -308,7 +308,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_dCSxMBTGEeWjX4sSLBKwPQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_uOfYkRWkEeWmivf14XmHvg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_cU7U6xTGEeWjX4sSLBKwPQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_usBDQCbVEeWd-NvkEte4jw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_cU7U6xTGEeWjX4sSLBKwPQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_dCTYQBTGEeWjX4sSLBKwPQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
