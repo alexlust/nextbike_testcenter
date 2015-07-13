@@ -124,3 +124,62 @@ default:
             - %paths.base%/../src/tests/integration/features/Account/TransferCredits
           contexts:
             - Nextbike\Context\Account\TransferCredits\TransferCreditsContext
+
+    UpdateUser:
+      paths:
+        - %paths.base%/../src/tests/integration/features/Account/UpdateUser
+      contexts:
+        - Nextbike\Context\Account\UpdateUser\UpdateUserContext
+
+    GetInvoices:
+             paths:
+              - %paths.base%/../src/tests/integration/features/Tests/GetInvoices
+             contexts:
+              - Nextbike\Context\Tests\GetInvoices\GetInvoicesContext
+    GetTerminalInfo:
+                 paths:
+                  - %paths.base%/../src/tests/integration/features/Tests/GetTerminalInfo
+                 contexts:
+                  - Nextbike\Context\Tests\GetTerminalInfo\GetTerminalInfoContext
+
+    SetStationNumber:
+          paths:
+            - %paths.base%/../src/tests/integration/features/Place/UpdateTeamMember
+          contexts:
+            - Nextbike\Context\Place\SetStationNumber\SetStationNumberContext
+
+    UpdateBike:
+              paths:
+                - %paths.base%/../src/tests/integration/features/Bike/UpdateBike
+              contexts:
+                - Nextbike\Context\Bike\UpdateBike\UpdateBikeContext
+
+    UpdateTeamMember:
+              paths:
+                - %paths.base%/../src/tests/integration/features/Team/UpdateTeamMember
+              contexts:
+                - Nextbike\Context\Team\UpdateTeamMember\UpdateTeamMemberContext
+
+    BikesAvailableToBook:
+                  paths:
+                    - %paths.base%/../src/tests/integration/features/Bike/BikesAvailableToBook
+                  contexts:
+                    - Nextbike\Context\Bike\BikesAvailableToBook\BikesAvailableToBookContext
+
+    Booking:
+                  paths:
+                    - %paths.base%/../src/tests/integration/features/Bike/Booking
+                  contexts:
+                    - Nextbike\Context\Bike\Booking\BookingContext
+
+    ActiveBookings:
+                      paths:
+                        - %paths.base%/../src/tests/integration/features/Bike/ActiveBookings
+                      contexts:
+                        - Nextbike\Context\Bike\ActiveBookings\ActiveBookingsContext
+
+    CancelBooking:
+                      paths:
+                        - %paths.base%/../src/tests/integration/features/Bike/CancelBooking
+                      contexts:
+                        - Nextbike\Context\Bike\CancelBooking\CancelBookingContext

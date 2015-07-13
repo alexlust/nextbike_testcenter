@@ -25,6 +25,9 @@
     <location key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.0.1360.768" x="0" y="121" />
     <location key="DiffWindow.0.0.1360.768" x="102" y="125" />
     <location key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0.0.1360.768" x="102" y="125" />
+    <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1360.768" x="513" y="25" />
+    <location key="findTextDialog.0.0.1360.768" x="471" y="146" />
+    <location key="dock-window-1.0.0.1360.768" x="60" y="227" />
     <size key="FileChooserDialogImpl.0.0.1366.768" width="426" height="488" />
     <size key="#UpdateCustomerData.feature.0.0.1366.768" width="629" height="681" />
     <size key="NewPhpFileDialog.0.0.1366.768" width="392" height="145" />
@@ -46,8 +49,12 @@
     <size key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.0.1360.768" width="1156" height="541" />
     <size key="DiffWindow.0.0.1360.768" width="1156" height="541" />
     <size key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0.0.1360.768" width="1156" height="541" />
+    <size key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1360.768" width="326" height="738" />
+    <size key="findTextDialog.0.0.1360.768" width="410" height="493" />
+    <size key="dock-window-1.0.0.1360.768" width="1156" height="541" />
     <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog" state="0" />
     <extendedState key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" state="300" />
+    <extendedState key="dock-window-1" state="0" />
     <extendedState key="DiffWindow" state="0" />
     <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.1" state="500" />
     <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.0" state="300" />
