@@ -16,6 +16,23 @@ class SetBikeRfidUidCommand extends AbstractCommand
     private $rfid;
     private $loginkey;
     private $bike;
+    private $terminal_id;
+
+    /**
+     * @return mixed
+     */
+    public function getTerminalId()
+    {
+        return $this->terminal_id;
+    }
+
+    /**
+     * @param mixed $terminal_id
+     */
+    public function setTerminalId($terminal_id)
+    {
+        $this->terminal_id = $terminal_id;
+    }
 
     /**
      * @return mixed

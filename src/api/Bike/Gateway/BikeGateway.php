@@ -58,10 +58,11 @@ class BikeGateway extends AbstractGateway
             "apikey" => $command->getApiKey(),
             "loginkey" => $command->getLoginkey(),
             "bike" => $command->getBike(),
-            "rfid"=> $command->getRfid()
+            "rfid"=> $command->getRfid(),
+            "terminal_id"=> $command->getTerminalId()
         ];
 
-        return $this->getAPIResponse('setBikeRfid', $data);
+        return $this->getAPIResponse('setBikeParameters', $data);
     }
 
     public function getBikeRfidUid(GetBikeRfidUidCommand $command){

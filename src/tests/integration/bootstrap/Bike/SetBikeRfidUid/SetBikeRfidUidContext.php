@@ -31,6 +31,7 @@ class SetBikeRfidUidContext extends BaseContext implements Context, SnippetAccep
         $command->setLoginkey($this->getIfIsset('loginkey', $this->updateInformation));
         $command->setRfid($this->getIfIsset('rfid', $this->updateInformation));
         $command->setBike($this->getIfIsset('bike', $this->updateInformation));
+        $command->setTerminalId($this->getIfIsset('terminal_id', $this->updateInformation));
         $gateway = new BikeGateway();
         $this->response = $gateway->setBikeRfidUid($command);
 
@@ -50,7 +51,9 @@ class SetBikeRfidUidContext extends BaseContext implements Context, SnippetAccep
      */
     public function theBikeRfidUidWillBeSet()
     {
-        var_dump($this->response);
+        $this->assertEquals($this->getIfIsset('bike', $this->updateInformation), $this->response['bike']['@attributes']['number']);
+        $this->assertEquals($this->getIfIsset('rfid', $this->updateInformation), $this->response['bike']['@attributes']['rfid']);
+        $this->assertArrayHasKey('state', $this->response['bike']['@attributes']);
     }
 
 }

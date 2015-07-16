@@ -52,10 +52,10 @@ class GetOnRfidContext extends BaseContext implements Context, SnippetAcceptingC
         $this->assertEquals(1, $this->response['user']['@attributes']['active']);
         $this->assertEquals('DE', $this->response['user']['@attributes']['lang']);
         $this->assertEquals('de', $this->response['user']['@attributes']['domain']);
-        $this->assertEquals('EURO', $this->response['user']['@attributes']['currency']);
+        $this->assertEquals('EUR', $this->response['user']['@attributes']['currency']);
         $this->assertEquals(0, $this->response['user']['@attributes']['free_seconds']);
-        $this->assertEquals('dd', $this->response['user']['@attributes']['payment']);
-        $this->assertEquals(4, $this->response['user']['@attributes']['max_bikes']);
+        $this->assertEquals('cc', $this->response['user']['@attributes']['payment']);
+        $this->assertEquals(1000, $this->response['user']['@attributes']['max_bikes']);
 
     }
 

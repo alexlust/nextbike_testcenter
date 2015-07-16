@@ -23,7 +23,7 @@ default:
 
     getBikeState:
       paths:
-        - %paths.base%/../src/tests/integration/features/Bike/GetBikeStateContext
+        - %paths.base%/../src/tests/integration/features/Bike/GetBikeState
       contexts:
         - Nextbike\Context\Bike\GetBikeStateContext\GetBikeStateContext
 

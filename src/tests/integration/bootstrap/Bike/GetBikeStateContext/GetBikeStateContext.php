@@ -31,7 +31,7 @@ class GetBikeStateContext extends BaseContext implements Context, SnippetAccepti
         $command = new GetBikeStateCommand();
         $command->setApikey($this->apiKey);
         if($this->getIfIsset('bikeNumber', $this->bikeInformation) == 'DOTENV'){
-            $command->setBikeNumber(getenv('BIKENUMBER'));
+            $command->setBikeNumber(getenv('BIKE_NUMBER'));
         }else{
             $command->setBikeNumber($this->getIfIsset('bikeNumber', $this->bikeInformation));
         }
@@ -47,8 +47,10 @@ class GetBikeStateContext extends BaseContext implements Context, SnippetAccepti
      */
     public function iGetTheStateFromTheBikeWithTheGivenBikeNumber()
     {
-        $this->assertArrayHasKey('bike', $this->response);
-        $this->assertEquals(getenv('BIKENUMBER'), $this->response['bike']['@attributes']['number']);
-        $this->assertNotNull($this->response['bike']['@attributes']['state']);
+        var_dump( $this->response );
+        $this->assertEquals(getenv('BIKE_NUMBER'), $this->response['bike']['@attributes']['number']);
+        $this->assertArrayHasKey('state', $this->response['bike']['@attributes']);
+        $this->assertArrayHasKey('bike_type', $this->response['bike']['@attributes']);
+
     }
 }

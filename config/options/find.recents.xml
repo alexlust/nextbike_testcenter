@@ -23,6 +23,9 @@
       <find>SetStationNumberContext.php</find>
       <find>$command-&gt;setLoginkey($this-&gt;getIfIsset('loginkey', $this-&gt;updateInformation));</find>
       <find>get</find>
+      <find>geto</find>
+      <find>getbike</find>
+      <find>getact</find>
     </findStrings>
     <replaceStrings>
       <replace>code</replace>
