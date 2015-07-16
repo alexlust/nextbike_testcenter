@@ -17,6 +17,57 @@ class SetBikeRfidUidCommand extends AbstractCommand
     private $loginkey;
     private $bike;
     private $terminal_id;
+    private $boardcomputer;
+    private $snap;
+    private $boardcomputer_version;
+
+    /**
+     * @return mixed
+     */
+    public function getBoardcomputer()
+    {
+        return $this->boardcomputer;
+    }
+
+    /**
+     * @param mixed $boardcomputer
+     */
+    public function setBoardcomputer($boardcomputer)
+    {
+        $this->boardcomputer = $boardcomputer;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSnap()
+    {
+        return $this->snap;
+    }
+
+    /**
+     * @param mixed $snap
+     */
+    public function setSnap($snap)
+    {
+        $this->snap = $snap;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getBoardcomputerVersion()
+    {
+        return $this->boardcomputer_version;
+    }
+
+    /**
+     * @param mixed $boardcomputer_version
+     */
+    public function setBoardcomputerVersion($boardcomputer_version)
+    {
+        $this->boardcomputer_version = $boardcomputer_version;
+    }
 
     /**
      * @return mixed

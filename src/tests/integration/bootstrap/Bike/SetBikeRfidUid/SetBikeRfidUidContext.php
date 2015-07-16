@@ -32,6 +32,9 @@ class SetBikeRfidUidContext extends BaseContext implements Context, SnippetAccep
         $command->setRfid($this->getIfIsset('rfid', $this->updateInformation));
         $command->setBike($this->getIfIsset('bike', $this->updateInformation));
         $command->setTerminalId($this->getIfIsset('terminal_id', $this->updateInformation));
+        $command->setSnap($this->getIfIsset('snap', $this->updateInformation));
+        $command->setBoardcomputerVersion($this->getIfIsset('boardcomputer_version', $this->updateInformation));
+        $command->setBoardcomputer($this->getIfIsset('boardcomputer', $this->updateInformation));
         $gateway = new BikeGateway();
         $this->response = $gateway->setBikeRfidUid($command);
 
@@ -52,8 +55,12 @@ class SetBikeRfidUidContext extends BaseContext implements Context, SnippetAccep
     public function theBikeRfidUidWillBeSet()
     {
         $this->assertEquals($this->getIfIsset('bike', $this->updateInformation), $this->response['bike']['@attributes']['number']);
+        $this->assertEquals($this->getIfIsset('boardcomputer', $this->updateInformation), $this->response['bike']['@attributes']['boardcomputer']);
+        $this->assertEquals($this->getIfIsset('snap', $this->updateInformation), $this->response['bike']['@attributes']['snap']);
+        $this->assertEquals('de', $this->response['bike']['@attributes']['language']);
         $this->assertEquals($this->getIfIsset('rfid', $this->updateInformation), $this->response['bike']['@attributes']['rfid']);
         $this->assertArrayHasKey('state', $this->response['bike']['@attributes']);
+        $this->assertArrayHasKey('battery', $this->response['bike']['@attributes']);
     }
 
 }
