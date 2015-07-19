@@ -1,16 +1,6 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>mobile</find>
-      <find>$this-&gt;mobile</find>
-      <find>loginKey</find>
-      <find>assertNotNull</find>
-      <find>store</find>
-      <find>apikey</find>
-      <find>zip</find>
-      <find>updateCustomerData</find>
-      <find>assertArrayHasKey</find>
-      <find>TariffsCommand</find>
       <find>uid</find>
       <find>$uid</find>
       <find>SingleTariff</find>
@@ -25,7 +15,22 @@
       <find>get</find>
       <find>geto</find>
       <find>getbike</find>
+      <find>setInstrument</find>
+      <find>addmem</find>
+      <find>testBandHasProperty</find>
+      <find>testBandInstanceOf2</find>
+      <find>testMemberHasProperty</find>
+      <find>testMemberPlayDrums</find>
+      <find>testMemberPlayHardLinesOnBass</find>
+      <find>testMemberRocksOnGuitar</find>
+      <find>testGuitarHasProperty</find>
+      <find>testGuitarInstanceOf</find>
+      <find>testGuitarHasFunction2</find>
+      <find>testGuitarTrick</find>
+      <find>testDrumStickTrick</find>
       <find>getact</find>
+      <find>setstationnumber</find>
+      <find>Place</find>
     </findStrings>
     <replaceStrings>
       <replace>code</replace>

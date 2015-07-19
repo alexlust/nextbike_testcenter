@@ -79,6 +79,13 @@ class RentContext extends BaseContext implements Context, SnippetAcceptingContex
     public function theBikeWillBeReturned() {
         var_dump( $this->response );
         $this->assertNotNull( $this->response['rental']['@attributes']['code'] );
+        $this->assertEquals($this->getIfIsset( "bikeNumber", $this->bikeInformation ), $this->response['rental']['@attributes']['bike']);
+        $this->assertArrayHasKey('start_place', $this->response['rental']['@attributes']);
+        $this->assertArrayHasKey('end_place', $this->response['rental']['@attributes']);
+        $this->assertArrayHasKey('start_place', $this->response['rental']['@attributes']);
+        $this->assertArrayHasKey('price', $this->response['rental']['@attributes']);
+        $this->assertArrayHasKey('price_service', $this->response['rental']['@attributes']);
+        $this->assertArrayHasKey('currency', $this->response['rental']['@attributes']);
     }
 
 }

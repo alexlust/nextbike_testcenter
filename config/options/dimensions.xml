@@ -1,7 +1,7 @@
 <application>
   <component name="DimensionService">
     <location key="FileChooserDialogImpl.0.0.1366.768" x="461" y="115" />
-    <location key="WELCOME_SCREEN.0.0.1366.768" x="678" y="271" />
+    <location key="WELCOME_SCREEN.0.0.1366.768" x="684" y="371" />
     <location key="com.intellij.ide.util.TipDialog.0.0.1366.768" x="394" y="213" />
     <location key="#UpdateCustomerData.feature.0.0.1366.768" x="368" y="53" />
     <location key="NewPhpFileDialog.0.0.1366.768" x="483" y="321" />
@@ -28,6 +28,8 @@
     <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1360.768" x="513" y="25" />
     <location key="findTextDialog.0.0.1360.768" x="471" y="146" />
     <location key="dock-window-1.0.0.1360.768" x="60" y="227" />
+    <location key="vcs.readOnlyHandler.ReadOnlyStatusDialog.0.0.1366.768" x="456" y="240" />
+    <location key="NewPhpClassDialog.0.0.1366.768" x="479" y="224" />
     <size key="FileChooserDialogImpl.0.0.1366.768" width="426" height="488" />
     <size key="#UpdateCustomerData.feature.0.0.1366.768" width="629" height="681" />
     <size key="NewPhpFileDialog.0.0.1366.768" width="392" height="145" />
@@ -52,6 +54,8 @@
     <size key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1360.768" width="326" height="738" />
     <size key="findTextDialog.0.0.1360.768" width="410" height="493" />
     <size key="dock-window-1.0.0.1360.768" width="1156" height="541" />
+    <size key="vcs.readOnlyHandler.ReadOnlyStatusDialog.0.0.1366.768" width="448" height="308" />
+    <size key="NewPhpClassDialog.0.0.1366.768" width="429" height="340" />
     <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog" state="0" />
     <extendedState key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" state="300" />
     <extendedState key="dock-window-1" state="0" />

@@ -7,6 +7,7 @@ use Nextbike\Api\Tests\Command\PhoneNumberCommand;
 use Nextbike\Api\Tests\Command\GetClosestLocationCommand;
 use Nextbike\Api\Tests\Command\GetInvoicesCommand;
 use Nextbike\Api\Tests\Command\GetTerminalInfoCommand;
+use Nextbike\Api\Tests\Command\AddAppMessageIdCommand;
 
 
 class TestsGateway extends AbstractGateway
@@ -59,6 +60,16 @@ class TestsGateway extends AbstractGateway
         return $this->getAPIResponse('getTerminalInfo', $data);
     }
 
+    public function addAppMessageId(AddAppMessageIdCommand $command){
+        $data = [
+            "apikey" => $command->getApiKey(),
+            "loginkey" => $command->getLoginkey(),
+            "message_id" => $command->getMessageId(),
+            "type" => $command->getType()
+        ];
+
+        return $this->getAPIResponse('addAppMessageId', $data);
+    }
 
 
 }

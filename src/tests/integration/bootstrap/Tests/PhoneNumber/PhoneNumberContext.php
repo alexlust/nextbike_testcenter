@@ -46,8 +46,10 @@ class PhoneNumberContext extends BaseContext implements Context, SnippetAcceptin
      */
     public function iWillGetDataForExistenceOfUserWithThisPhoneNumber()
     {
-        $this->assertEquals('EN', $this->response['user']['@attributes']['lang']);
-        $this->assertEquals('de', $this->response['user']['@attributes']['domain']);
+        $this->assertArrayHasKey('mobile', $this->response['user']['@attributes']);
+        $this->assertArrayHasKey('lang', $this->response['user']['@attributes']);
+        $this->assertArrayHasKey('domain', $this->response['user']['@attributes']);
+        $this->assertArrayHasKey('bikes', $this->response['user']['@attributes']);
     }
 
 

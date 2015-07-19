@@ -1,5 +1,10 @@
 <application>
   <component name="WebServers">
+    <option name="servers">
+      <webServer id="12217e8d-f953-4dc3-a77d-61570a90d9aa" name="Tutorial" url="http://localhost">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+    </option>
     <sftpAdvancedGlobalOptions>
       <SftpAdvancedOptions />
     </sftpAdvancedGlobalOptions>

@@ -144,7 +144,7 @@ default:
 
     SetStationNumber:
           paths:
-            - %paths.base%/../src/tests/integration/features/Place/UpdateTeamMember
+            - %paths.base%/../src/tests/integration/features/Place/SetStationNumber
           contexts:
             - Nextbike\Context\Place\SetStationNumber\SetStationNumberContext
 
@@ -183,3 +183,14 @@ default:
                         - %paths.base%/../src/tests/integration/features/Bike/CancelBooking
                       contexts:
                         - Nextbike\Context\Bike\CancelBooking\CancelBookingContext
+    SetRackIds:
+              paths:
+                - %paths.base%/../src/tests/integration/features/Place/SetRackIds
+              contexts:
+                - Nextbike\Context\Place\SetRackIds\SetRackIdsContext
+
+    AddAppMessageId:
+             paths:
+              - %paths.base%/../src/tests/integration/features/Tests/AddAppMessageId
+             contexts:
+              - Nextbike\Context\Tests\AddAppMessageId\AddAppMessageIdContext
